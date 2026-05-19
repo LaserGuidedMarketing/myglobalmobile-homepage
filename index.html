@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Global Mobile | AI-Powered Marketing & Business Growth Systems | Montgomery County TX</title>
+    <meta name="description" content="Transform your business with AI-powered marketing, automated workflows, local SEO, Google Business Profile optimization, reputation management, and lead generation in Montgomery County, Texas.">
+    <meta name="keywords" content="AI marketing, local SEO, Google Business Profile optimization, reputation management, lead generation, Montgomery County TX, Conroe TX, chatbots, business automation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://myglobalmobile.com/#organization",
+                "name": "My Global Mobile",
+                "url": "https://myglobalmobile.com",
+                "logo": {"@type": "ImageObject", "url": "https://myglobalmobile.com/images/mgm_logo_1B.png"},
+                "description": "AI-powered marketing and business growth systems for local businesses in Montgomery County, Texas"
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://myglobalmobile.com/#localbusiness",
+                "name": "My Global Mobile",
+                "description": "AI-powered marketing agency specializing in local SEO, reputation management, lead generation, and business automation",
+                "url": "https://myglobalmobile.com",
+                "areaServed": [
+                    {"@type": "City", "name": "Conroe"},
+                    {"@type": "City", "name": "The Woodlands"},
+                    {"@type": "City", "name": "Magnolia"},
+                    {"@type": "City", "name": "Willis"},
+                    {"@type": "City", "name": "Montgomery"}
+                ],
+                "serviceType": ["Local SEO Services", "Google Business Profile Optimization", "AI Chatbot Development", "Online Reputation Management", "Lead Generation", "B2B Lead Generation", "Marketing Automation", "Strategic Business Consulting"]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://myglobalmobile.com/#website",
+                "url": "https://myglobalmobile.com",
+                "name": "My Global Mobile"
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-dark: #001f47;
+            --card-blue: #002a5c;
+            --gold: #c9b358;
+            --gold-light: #e8d896;
+            --gold-dark: #a89347;
+            --light-grey: #c0c0c0;
+            --white: #ffffff;
+            --glass-border: rgba(201, 179, 88, 0.25);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background: var(--primary-dark); color: var(--white); line-height: 1.6; overflow-x: hidden; }
+        .bg-animation { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: radial-gradient(ellipse at 20% 80%, rgba(201, 179, 88, 0.06) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(0, 42, 92, 0.6) 0%, transparent 50%), linear-gradient(180deg, var(--primary-dark) 0%, #00183a 50%, var(--primary-dark) 100%); }
+        .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(0, 31, 71, 0.98); backdrop-filter: blur(20px); border-bottom: 1px solid var(--glass-border); }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 80px; }
+        .logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
+        .logo img { height: 45px; width: auto; }
+        .logo-text { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--white); }
+        .logo-text span { color: var(--gold); }
+        .nav-menu { display: flex; align-items: center; gap: 0.25rem; list-style: none; }
+        .nav-item { position: relative; }
+        .nav-link { display: flex; align-items: center; gap: 0.25rem; padding: 0.6rem 0.9rem; color: var(--light-grey); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.3s ease; border-radius: 8px; }
+        .nav-link:hover { color: var(--gold); background: rgba(201, 179, 88, 0.1); }
+        .nav-link svg { width: 14px; height: 14px; transition: transform 0.3s ease; }
+        .nav-item:hover .nav-link svg { transform: rotate(180deg); }
+        .dropdown { position: absolute; top: 100%; left: 0; min-width: 300px; background: rgba(0, 31, 71, 0.98); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 12px; padding: 0.75rem; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); }
+        .nav-item:hover .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
+        .dropdown-item { display: block; padding: 0.65rem 1rem; color: var(--light-grey); text-decoration: none; font-size: 0.85rem; border-radius: 8px; transition: all 0.3s ease; }
+        .dropdown-item:hover { color: var(--gold); background: rgba(201, 179, 88, 0.1); padding-left: 1.25rem; }
+        .nav-cta { padding: 0.65rem 1.25rem; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%); color: var(--primary-dark); font-weight: 600; border-radius: 8px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 20px rgba(201, 179, 88, 0.3); font-size: 0.85rem; }
+        .nav-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(201, 179, 88, 0.4); }
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 140px 2rem 100px; position: relative; overflow: hidden; background: linear-gradient(180deg, rgba(0,31,71,0.95) 0%, rgba(0,31,71,0.85) 100%); }
+        .hero-content { max-width: 950px; text-align: center; position: relative; z-index: 1; }
+        .hero-badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.25rem; background: rgba(201, 179, 88, 0.12); border: 1px solid var(--glass-border); border-radius: 50px; font-size: 0.875rem; color: var(--gold); margin-bottom: 2rem; }
+        .hero h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.5rem; }
+        .hero h1 .highlight { background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-subtitle { font-size: clamp(1.125rem, 2vw, 1.4rem); color: var(--light-grey); max-width: 750px; margin: 0 auto 2.5rem; }
+        .hero-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; font-size: 1rem; font-weight: 600; text-decoration: none; border-radius: 12px; transition: all 0.3s ease; cursor: pointer; border: none; }
+        .btn-primary { background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%); color: var(--primary-dark); box-shadow: 0 4px 30px rgba(201, 179, 88, 0.4); }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 40px rgba(201, 179, 88, 0.5); }
+        .btn-secondary { background: rgba(255, 255, 255, 0.05); color: var(--white); border: 1px solid var(--glass-border); backdrop-filter: blur(10px); }
+        .btn-secondary:hover { background: rgba(201, 179, 88, 0.1); border-color: var(--gold); color: var(--gold); }
+        .hero-stats { display: flex; justify-content: center; gap: 4rem; margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--glass-border); }
+        .stat { text-align: center; }
+        .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 2.75rem; font-weight: 700; color: var(--gold); display: block; }
+        .stat-label { font-size: 0.85rem; color: var(--light-grey); text-transform: uppercase; letter-spacing: 0.1em; }
+        section { padding: 100px 2rem; position: relative; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .section-header { text-align: center; max-width: 850px; margin: 0 auto 4rem; }
+        .section-label { display: inline-block; padding: 0.5rem 1.25rem; background: rgba(201, 179, 88, 0.12); border: 1px solid var(--glass-border); border-radius: 50px; font-size: 0.875rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
+        .section-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin-bottom: 1rem; line-height: 1.2; }
+        .section-subtitle { font-size: 1.125rem; color: var(--light-grey); }
+        .framework-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+        .framework-card { background: rgba(0, 42, 92, 0.6); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; transition: all 0.4s ease; position: relative; overflow: hidden; }
+        .framework-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--gold), transparent); }
+        .framework-card:hover { border-color: rgba(201, 179, 88, 0.5); transform: translateY(-5px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); }
+        .framework-card .step-number { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%); color: var(--primary-dark); font-family: 'Space Grotesk', sans-serif; font-weight: 700; border-radius: 12px; margin-bottom: 1.25rem; }
+        .framework-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; font-weight: 600; margin-bottom: 1rem; color: var(--gold); }
+        .framework-card p { color: var(--light-grey); font-size: 0.95rem; line-height: 1.7; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 1.5rem; }
+        .service-card { background: rgba(0, 42, 92, 0.5); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; transition: all 0.4s ease; position: relative; overflow: hidden; }
+        .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--gold), transparent); opacity: 0; transition: opacity 0.3s ease; }
+        .service-card:hover::before { opacity: 1; }
+        .service-card:hover { border-color: rgba(201, 179, 88, 0.4); transform: translateY(-5px); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); }
+        .service-icon { width: 60px; height: 60px; background: linear-gradient(135deg, rgba(201, 179, 88, 0.2) 0%, rgba(201, 179, 88, 0.05) 100%); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; border: 1px solid var(--glass-border); }
+        .service-icon svg { width: 28px; height: 28px; color: var(--gold); }
+        .service-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
+        .service-card p { color: var(--light-grey); font-size: 0.95rem; margin-bottom: 1.5rem; }
+        .service-links { display: flex; flex-direction: column; gap: 0.5rem; }
+        .service-link { display: flex; align-items: center; gap: 0.5rem; color: var(--gold); text-decoration: none; font-size: 0.9rem; font-weight: 500; padding: 0.5rem 0; transition: all 0.3s ease; }
+        .service-link:hover { color: var(--gold-light); padding-left: 0.5rem; }
+        .service-link svg { width: 16px; height: 16px; transition: transform 0.3s ease; }
+        .service-link:hover svg { transform: translateX(4px); }
+        .faq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; max-width: 1100px; margin: 0 auto; }
+        .faq-item { background: rgba(0, 42, 92, 0.5); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 16px; overflow: hidden; transition: all 0.3s ease; }
+        .faq-item:hover { border-color: rgba(201, 179, 88, 0.4); }
+        .faq-question { width: 100%; padding: 1.5rem; background: none; border: none; color: var(--white); font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 600; text-align: left; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s ease; }
+        .faq-question:hover { color: var(--gold); }
+        .faq-question svg { width: 20px; height: 20px; color: var(--gold); transition: transform 0.3s ease; }
+        .faq-item.active .faq-question svg { transform: rotate(180deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+        .faq-item.active .faq-answer { max-height: 300px; padding: 0 1.5rem 1.5rem; }
+        .faq-answer p { color: var(--light-grey); font-size: 0.95rem; line-height: 1.7; }
+        .cta-card { background: rgba(0, 42, 92, 0.6); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 30px; padding: 4rem; max-width: 900px; margin: 0 auto; text-align: center; }
+        .cta-card h2 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin-bottom: 1rem; }
+        .cta-card p { color: var(--light-grey); font-size: 1.25rem; margin-bottom: 2rem; }
+        .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .booking-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 3rem; }
+        .booking-card { background: rgba(0, 42, 92, 0.5); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; text-align: center; transition: all 0.4s ease; }
+        .booking-card:hover { border-color: var(--gold); transform: translateY(-5px); }
+        .booking-card .duration { display: inline-block; padding: 0.5rem 1rem; background: rgba(201, 179, 88, 0.1); border-radius: 50px; font-size: 0.875rem; color: var(--gold); margin-bottom: 1rem; }
+        .booking-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; }
+        .booking-card p { color: var(--light-grey); font-size: 0.95rem; margin-bottom: 1.5rem; }
+        .footer { background: rgba(0, 31, 71, 0.98); border-top: 1px solid var(--glass-border); padding: 60px 2rem 30px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 3rem; max-width: 1400px; margin: 0 auto 3rem; }
+        .footer-brand { max-width: 300px; }
+        .footer-brand img { height: 50px; margin-bottom: 1rem; }
+        .footer-brand p { color: var(--light-grey); font-size: 0.95rem; }
+        .footer-column h4 { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; font-weight: 600; color: var(--gold); margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.1em; }
+        .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+        .footer-links a { color: var(--light-grey); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; }
+        .footer-links a:hover { color: var(--gold); padding-left: 0.5rem; }
+        .footer-bottom { max-width: 1400px; margin: 0 auto; padding-top: 2rem; border-top: 1px solid var(--glass-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .footer-bottom p { color: var(--light-grey); font-size: 0.875rem; }
+        .footer-bottom a { color: var(--gold); text-decoration: none; }
+        @media (max-width: 1024px) {
+            .nav-menu { display: none; }
+            .framework-grid { grid-template-columns: repeat(2, 1fr); }
+            .faq-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .framework-grid { grid-template-columns: 1fr; }
+            .hero-stats { flex-direction: column; gap: 2rem; }
+            .services-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            .cta-card { padding: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="images/mgm_logo_1B_round.png" alt="My Global Mobile">
+                <span class="logo-text">My <span>Global</span> Mobile</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Rank Website <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/how-to-rank-in-google-maps.html" class="dropdown-item">Rank in Google MAPS</a>
+                        <a href="/#HowToRankInGoogleOrganicSearch" class="dropdown-item">Google Organic Search</a>
+                        <a href="/#HowToRankGoogleBusinessProfile" class="dropdown-item">Google Business Profile</a>
+                        <a href="/#BenefitsOfRankingYourGoogleBusinessProfile" class="dropdown-item">Benefits of Ranking GBP</a>
+                        <a href="/#HowToRankInGenerativeAiSearchResults" class="dropdown-item">Generative AI Search</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">AI Chatbots <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/chatbot-profit-secrets-ebook.html" class="dropdown-item">Chatbot Profit Secrets</a>
+                        <a href="/ai-chatbot-30-day-free-trial.html" class="dropdown-item">30-Day Free Trial</a>
+                        <a href="/ai-chatbot-done-for-you-set-up.html" class="dropdown-item">Done-For-You Setup</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Reputation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/how-to-get-more-5-star-reviews-with-online-reputation-managment.html" class="dropdown-item">Get More 5-Star Reviews</a>
+                        <a href="/online-reputation-management-secrets-ebook.html" class="dropdown-item">ORM Secrets eBook</a>
+                        <a href="/online-reputation-management-30-day-free-trial.html" class="dropdown-item">30-Day Free Trial</a>
+                        <a href="/online-reputation-management-done-for-you-setup.html" class="dropdown-item">DFY Software Setup</a>
+                        <a href="/online-reputation-management-done-for-you-service.html" class="dropdown-item">DFY ORM Service</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">SEO <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/best-seo-agency-conroe-texas.html" class="dropdown-item">Best SEO Agency Conroe TX</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Leads <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/lead-generation-services.html" class="dropdown-item">Lead Generation Services</a>
+                        <a href="/lead-reveal-capture-and-convert-anonymous-website-visitors-into-first-party-data.html" class="dropdown-item">Capture Anonymous Visitors</a>
+                        <a href="/b2b-leads-from-google-maps-and-linkedin.html" class="dropdown-item">B2B: Google Maps & LinkedIn</a>
+                        <a href="/pay-per-call-leads.html" class="dropdown-item">Pay-Per-Call Leads</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown">
+                        <a href="/#strategicbusinessconsulting" class="dropdown-item">Strategic Consulting</a>
+                        <a href="/#HowToMonetizeDatabase" class="dropdown-item">Monetize Database</a>
+                        <a href="/#professionalcopyrightingservices" class="dropdown-item">Copywriting Services</a>
+                        <a href="/#HowToProfitFromMarketingAutomation" class="dropdown-item">Marketing Automation</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="/contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                AI-Powered Marketing for Montgomery County Businesses
+            </div>
+            <h1>Transform Your Business with <span class="highlight">Intelligent Marketing Systems</span></h1>
+            <p class="hero-subtitle">Rank higher in Google, capture more leads, and automate your growth with cutting-edge AI solutions designed for local businesses in Conroe, The Woodlands, and throughout Montgomery County, Texas.</p>
+            <div class="hero-buttons">
+                <a href="https://bookings.cocreatorship.org/30-minute-consultation" class="btn btn-primary">Book Free Consultation</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number">500+</span><span class="stat-label">Businesses Helped</span></div>
+                <div class="stat"><span class="stat-number">10M+</span><span class="stat-label">Leads Generated</span></div>
+                <div class="stat"><span class="stat-number">98%</span><span class="stat-label">Client Satisfaction</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY-WHAT-HOW-WHAT IF Framework -->
+    <section class="framework-section" id="framework">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Approach</span>
+                <h2 class="section-title">The Framework for Business Growth</h2>
+                <p class="section-subtitle">A proven methodology that delivers measurable results for local businesses</p>
+            </div>
+            <div class="framework-grid">
+                <div class="framework-card">
+                    <div class="step-number">1</div>
+                    <h3>WHY</h3>
+                    <p><strong>Your business is invisible online.</strong> 97% of consumers search online before buying, yet most local businesses fail to appear in Google Maps or organic results. You're losing customers to competitors who rank higher.</p>
+                </div>
+                <div class="framework-card">
+                    <div class="step-number">2</div>
+                    <h3>WHAT</h3>
+                    <p><strong>AI-powered marketing systems.</strong> We combine Local SEO, Google Business Profile optimization, AI chatbots, reputation management, and automated lead generation to create a complete customer acquisition engine.</p>
+                </div>
+                <div class="framework-card">
+                    <div class="step-number">3</div>
+                    <h3>HOW</h3>
+                    <p><strong>Strategic implementation.</strong> We audit your current presence, optimize your profiles, deploy AI tools, build automated workflows, and continuously improve based on data and results.</p>
+                </div>
+                <div class="framework-card">
+                    <div class="step-number">4</div>
+                    <h3>WHAT IF</h3>
+                    <p><strong>Don't act:</strong> Continue losing leads to competitors. <strong>Take action:</strong> Dominate local search, capture 24/7 leads, build 5-star reputation, and scale profitably with automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Services</span>
+                <h2 class="section-title">Complete Marketing Solutions</h2>
+                <p class="section-subtitle">Everything you need to attract, convert, and retain customers in the AI age</p>
+            </div>
+            <div class="services-grid">
+                <!-- Google Ranking -->
+                <div class="service-card" id="HowToRankGoogleBusinessProfile">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Google Business Profile Optimization</h3>
+                    <p>Rank higher in Google Maps and local search results. Dominate the 3-pack and capture high-intent local customers.</p>
+                    <div class="service-links">
+                        <a href="/how-to-rank-in-google-maps.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Rank in Google Maps</a>
+                        <a href="/best-seo-agency-conroe-texas.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Best SEO Agency Conroe TX</a>
+                    </div>
+                </div>
+
+                <!-- AI Chatbots -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"                        stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>AI Chatbot Solutions</h3>
+                    <p>Deploy intelligent chatbots that engage visitors 24/7, answer questions, capture leads, and book appointments automatically.</p>
+                    <div class="service-links">
+                        <a href="/chatbot-profit-secrets-ebook.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Chatbot Profit Secrets</a>
+                        <a href="/ai-chatbot-30-day-free-trial.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>30-Day Free Trial</a>
+                        <a href="/ai-chatbot-done-for-you-set-up.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Done-For-You Setup</a>
+                    </div>
+                </div>
+
+                <!-- Reputation Management -->
+                <div class="service-card" id="onlinereputationmanagment">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3>Reputation Management</h3>
+                    <p>Generate more 5-star reviews, manage customer feedback, and build trust that converts searchers into customers.</p>
+                    <div class="service-links">
+                        <a href="/how-to-get-more-5-star-reviews-with-online-reputation-managment.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Get More 5-Star Reviews</a>
+                        <a href="/online-reputation-management-30-day-free-trial.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>30-Day Free Trial</a>
+                        <a href="/online-reputation-management-done-for-you-service.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Done-For-You Service</a>
+                    </div>
+                </div>
+
+                <!-- Lead Generation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Lead Generation</h3>
+                    <p>Capture B2B and B2C leads from Google Maps, LinkedIn, and anonymous website visitors. Turn browsers into buyers.</p>
+                    <div class="service-links">
+                        <a href="/lead-generation-services.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Lead Generation Services</a>
+                        <a href="/b2b-leads-from-google-maps-and-linkedin.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>B2B: Google Maps & LinkedIn</a>
+                        <a href="/pay-per-call-leads.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Pay-Per-Call Leads</a>
+                    </div>
+                </div>
+
+                <!-- Website Visitor ID -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3>Website Visitor Identification</h3>
+                    <p>Reveal and convert anonymous website visitors into first-party data. Capture leads from the 98% who don't fill out forms.</p>
+                    <div class="service-links">
+                        <a href="/lead-reveal-capture-and-convert-anonymous-website-visitors-into-first-party-data.html" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Capture Anonymous Visitors</a>
+                    </div>
+                </div>
+
+                <!-- Marketing Automation -->
+                <div class="service-card" id="HowToProfitFromMarketingAutomation">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                    </div>
+                    <h3>Marketing Automation</h3>
+                    <p>Automate follow-ups, nurture sequences, and customer communications. Scale without adding overhead.</p>
+                    <div class="service-links">
+                        <a href="https://bookings.cocreatorship.org/marketing-automation-consultation-15-minute-intro" class="service-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Book Automation Consult</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Get answers to common questions about our AI-powered marketing services</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is Google Business Profile optimization?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Google Business Profile optimization is the process of enhancing your business listing to rank higher in Google Maps and local search results. This includes optimizing your business description, adding photos, managing reviews, posting updates, and ensuring NAP (Name, Address, Phone) consistency across the web.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do AI chatbots generate leads for my business?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>AI chatbots engage website visitors 24/7, answer common questions, qualify leads through conversational forms, and book appointments directly into your calendar. They capture contact information from interested prospects even when you're not available, ensuring no lead goes unanswered.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Why is reputation management important for local businesses?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>93% of consumers read online reviews before making a purchase decision. A strong reputation with 4.5+ stars and recent positive reviews builds trust, improves Google rankings, and directly impacts conversion rates. Our system helps you generate consistent 5-star reviews while managing negative feedback.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How does B2B lead generation from Google Maps work?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We extract business data from Google Maps listings in your target area and industry, then enrich it with contact information from LinkedIn and other sources. This gives you a targeted list of decision-makers with verified emails and phone numbers for outreach campaigns.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What results can I expect from local SEO services?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most clients see improved Google Maps rankings within 30-60 days, with significant increases in calls, website visits, and direction requests. Full optimization typically results in appearing in the top 3 local pack positions for primary keywords, driving 3-5x more qualified local traffic.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Which industries benefit most from AI marketing automation?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Service-based businesses like roofing, HVAC, plumbing, electrical, dental, chiropractic, legal services, and real estate see exceptional results. Any business that relies on local customers, appointment scheduling, and lead follow-up can benefit significantly from AI automation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do you capture anonymous website visitors?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our LeadReveal technology identifies 15-30% of your anonymous visitors by matching IP addresses to business and consumer databases. You get names, emails, phone numbers, and mailing addresses of visitors who didn't fill out forms, allowing you to retarget them with direct outreach.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        When will I see ROI from AI marketing investments?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most clients see measurable improvements within 30 days. Google Business Profile optimization shows results in 2-4 weeks. AI chatbots generate leads immediately upon deployment. Reputation management builds over 60-90 days. The compounding effect typically delivers 3-10x ROI within 6 months.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Book a Call</span>
+                <h2 class="section-title">Ready to Grow Your Business?</h2>
+                <p class="section-subtitle">Schedule a consultation to discuss your marketing goals</p>
+            </div>
+            <div class="booking-grid">
+                <div class="booking-card">
+                    <span class="duration">15 Minutes</span>
+                    <h3>Marketing Automation Intro</h3>
+                    <p>Quick introduction to see if our automation solutions fit your business needs.</p>
+                    <a href="https://bookings.cocreatorship.org/marketing-automation-consultation-15-minute-intro" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="booking-card">
+                    <span class="duration">30 Minutes</span>
+                    <h3>Free Strategy Session</h3>
+                    <p>Comprehensive review of your current marketing and customized growth recommendations.</p>
+                    <a href="https://bookings.cocreatorship.org/30-minute-consultation" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="booking-card">
+                    <span class="duration">60 Minutes</span>
+                    <h3>Strategic Consulting</h3>
+                    <p>Deep-dive strategic planning session for comprehensive business growth initiatives.</p>
+                    <a href="https://bookings.cocreatorship.org/strategic-business-consulting-1-hour" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Start Your Transformation Today</h2>
+                <p>Join hundreds of businesses in Montgomery County already using AI to dominate their markets.</p>
+                <div class="cta-buttons">
+                    <a href="/contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="tel:+19365550123" class="btn btn-secondary">Call Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="images/mgm_logo_1B.png" alt="My Global Mobile">
+                <p>AI-powered marketing systems for local businesses in Montgomery County, Texas. Rank higher, convert more, scale faster.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="/how-to-rank-in-google-maps.html">Google Maps Ranking</a></li>
+                    <li><a href="/ai-chatbot-30-day-free-trial.html">AI Chatbots</a></li>
+                    <li><a href="/online-reputation-management-30-day-free-trial.html">Reputation Management</a></li>
+                    <li><a href="/lead-generation-services.html">Lead Generation</a></li>
+                    <li><a href="/best-seo-agency-conroe-texas.html">SEO Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="/chatbot-profit-secrets-ebook.html">Chatbot eBook</a></li>
+                    <li><a href="/online-reputation-management-secrets-ebook.html">ORM eBook</a></li>
+                    <li><a href="/#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/terms-conditions-privacy-policy-and-disclaimers.html">Privacy & Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Global Mobile. All rights reserved.</p>
+            <p>Serving Conroe, The Woodlands, Magnolia, Willis, and Montgomery, Texas</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) item.classList.add('active');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+        });
+    </script>
+</body>
+</html>
