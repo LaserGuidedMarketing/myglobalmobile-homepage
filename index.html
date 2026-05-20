@@ -142,6 +142,14 @@
         .booking-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 0; }
         .cta-section { padding-top: 40px; }
         .booking-card { background: #2d3748; backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; text-align: center; transition: all 0.4s ease; }
+        .service-area-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+        .service-area-card { background: #2d3748; backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; transition: all 0.4s ease; }
+        .service-area-card:hover { border-color: rgba(201, 179, 88, 0.4); transform: translateY(-5px); }
+        .service-area-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: var(--gold); }
+        .service-area-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+        .service-area-card li { color: var(--light-grey); font-size: 0.95rem; padding: 0.25rem 0; }
+        .service-area-footer { text-align: center; max-width: 800px; margin: 3rem auto 0; padding: 2rem; background: rgba(201, 179, 88, 0.05); border: 1px solid var(--glass-border); border-radius: 16px; }
+        .service-area-footer p { color: var(--light-grey); font-size: 1rem; line-height: 1.7; }
         .booking-card:hover { border-color: var(--gold); transform: translateY(-5px); }
         .booking-card .duration { display: inline-block; padding: 0.5rem 1rem; background: rgba(201, 179, 88, 0.1); border-radius: 50px; font-size: 0.875rem; color: var(--gold); margin-bottom: 1rem; }
         .booking-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; }
@@ -173,6 +181,8 @@
             .cta-card { padding: 2rem; }
             section { padding: 40px 1.5rem; }
             .hero { padding: 120px 1.5rem 60px; }
+            .service-area-grid { grid-template-columns: 1fr; }
+            .service-area-card { padding: 1.5rem; }
         }
     </style>
 </head>
@@ -252,7 +262,7 @@
                 AI-Powered Marketing for Montgomery County Businesses
             </div>
             <h1>Transform Your Business with <span class="highlight">Intelligent Marketing Systems</span></h1>
-            <p class="hero-subtitle">Rank higher in Google, capture more leads, and automate your growth with cutting-edge AI solutions designed for local businesses in Montgomery County, Texas. Our primary service area includes Montgomery, Conroe, The Woodlands, Spring, and Willis.</p>
+            <p class="hero-subtitle">Get more brand exposure, leads & sales, and reduce your overhead via our leading-edge Ai Software Platforms and Agentic Agents.</p>
             <div class="hero-buttons">
                 <a href="https://bookings.laserguidedmarketing.com/lite/15-minute-exploratory-call-ocba-rank-aeo-geo" class="btn btn-primary">Book Free Consultation</a>
                 <a href="#services" class="btn btn-secondary">Explore Services</a>
@@ -519,6 +529,53 @@
                     <a href="https://bookings.laserguidedmarketing.com/lite/15-minute-exploratory-call-ocba-rank-aeo-geo" class="btn btn-primary">Get Started</a>
                     <a href="tel:+17029971520" class="btn btn-secondary">Call Us</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area Section -->
+    <section class="service-area-section" id="service-area">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Service Area</span>
+                <h2 class="section-title">Our Service Area</h2>
+                <p class="section-subtitle">Our local service area includes:</p>
+            </div>
+            <div class="service-area-grid">
+                <div class="service-area-card">
+                    <h3>Montgomery County, Texas</h3>
+                    <ul>
+                        <li>Montgomery, Texas</li>
+                        <li>Conroe, Texas</li>
+                        <li>Walden, Texas</li>
+                        <li>Willis, Texas</li>
+                        <li>Wood Forest, Texas</li>
+                        <li>The Woodlands, Texas</li>
+                        <li>Spring, Texas</li>
+                        <li>Magnolia, Texas</li>
+                        <li>Dobbin, Texas</li>
+                        <li>Pinehurst, Texas</li>
+                        <li>Stagecoach, Texas</li>
+                        <li>Plantersville, Texas</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Walker County, Texas</h3>
+                    <ul>
+                        <li>Huntsville, Texas</li>
+                        <li>Panorama Village, Texas</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Harris County, Texas</h3>
+                    <ul>
+                        <li>Houston, Texas</li>
+                        <li>Tomball, Texas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-area-footer">
+                <p>We can help you save time, increase profits and make your business more fun again, regardless of where your business is located! Give us a call or click one of the links to this page to schedule a Discovery Call.</p>
             </div>
         </div>
     </section>
