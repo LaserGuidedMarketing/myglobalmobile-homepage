@@ -286,6 +286,35 @@
             margin: 0 auto; 
             text-align: center; 
         }
+        .service-area-grid { 
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 1.5rem; 
+        }
+        .service-area-card { 
+            background: rgba(255,255,255,0.05); 
+            border: 1px solid var(--glass-border); 
+            border-radius: 20px; 
+            padding: 2rem; 
+        }
+        .service-area-card h3 { 
+            font-family: 'Space Grotesk', sans-serif; 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            margin-bottom: 1rem; 
+            color: var(--gold); 
+        }
+        .service-area-card ul { 
+            list-style: none; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 0.5rem; 
+        }
+        .service-area-card li { 
+            color: var(--light-grey); 
+            font-size: 0.95rem; 
+            padding: 0.25rem 0; 
+        }
         .footer { 
             background: var(--primary-dark); 
             border-top: 1px solid var(--glass-border); 
@@ -305,6 +334,7 @@
             .framework-grid { grid-template-columns: 1fr; }
             .hero-stats { flex-direction: column; gap: 2rem; }
             .services-grid { grid-template-columns: 1fr; }
+            .service-area-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -413,6 +443,65 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">What makes you different?</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service-area">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Service Area</span>
+                <h2 class="section-title">Montgomery County, Texas</h2>
+            </div>
+            <div class="service-area-grid">
+                <div class="service-area-card">
+                    <h3>Montgomery</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Reputation Management</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Conroe</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Lead Generation</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>The Woodlands</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Reputation Management</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Spring</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Lead Generation</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Willis</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Reputation Management</li>
+                    </ul>
+                </div>
+                <div class="service-area-card">
+                    <h3>Magnolia</h3>
+                    <ul>
+                        <li>Local SEO</li>
+                        <li>AI Chatbots</li>
+                        <li>Lead Generation</li>
+                    </ul>
                 </div>
             </div>
         </div>
