@@ -238,6 +238,41 @@
             color: var(--gold);
             background-color: rgba(201, 179, 88, 0.1);
         }
+
+        .nav-menu {
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+            background-color: var(--bg-primary);
+            flex-direction: column;
+            padding: 1rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .nav-menu.active {
+            display: flex;
+        }
+
+        .nav-item {
+            width: 100%;
+        }
+
+        .nav-link {
+            padding: 1rem;
+            width: 100%;
+        }
+
+        .dropdown {
+            position: static;
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+            background: none;
+            border: none;
+            padding-left: 1rem;
+        }
         
         .nav-cta { 
             padding: 0.65rem 1.25rem; 
@@ -247,6 +282,25 @@
             border-radius: 8px; 
             text-decoration: none; 
             font-size: 0.85rem; 
+        }
+
+        .mobile-menu-toggle {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu-toggle span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--gold);
+            border-radius: 3px;
+            transition: all 0.3s ease;
         }
         
         /* Hero Section */
@@ -605,8 +659,16 @@
                 padding: 0 2rem;
             }
             
+            .mobile-menu-toggle {
+                display: none;
+            }
+
             .nav-menu {
                 display: flex;
+                position: static;
+                flex-direction: row;
+                background: none;
+                padding: 0;
             }
             
             .hero {
@@ -697,6 +759,11 @@
                 <img src="images/mgm_logo_1B.png" alt="My Global Mobile">
                 <span class="logo-text">My Global <span>Mobile</span></span>
             </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#services" class="nav-link">Services</a>
@@ -881,5 +948,10 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
