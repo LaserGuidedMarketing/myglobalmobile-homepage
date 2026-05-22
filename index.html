@@ -197,6 +197,47 @@
             color: var(--gold); 
             background-color: rgba(201, 179, 88, 0.1); 
         }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 280px;
+            background-color: var(--bg-primary);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 0.75rem;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            z-index: 1001;
+        }
+
+        .nav-item:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 0.65rem 1rem;
+            color: var(--light-grey);
+            text-decoration: none;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            color: var(--gold);
+            background-color: rgba(201, 179, 88, 0.1);
+        }
         
         .nav-cta { 
             padding: 0.65rem 1.25rem; 
@@ -657,7 +698,16 @@
                 <span class="logo-text">My Global <span>Mobile</span></span>
             </a>
             <ul class="nav-menu">
-                <li><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                    <div class="dropdown">
+                        <a href="#local-seo" class="dropdown-item">Local SEO</a>
+                        <a href="#ai-chatbots" class="dropdown-item">AI Chatbots</a>
+                        <a href="#reputation-management" class="dropdown-item">Reputation Management</a>
+                        <a href="#lead-generation" class="dropdown-item">Lead Generation</a>
+                        <a href="#lead-reveal" class="dropdown-item">Lead Reveal (Identify Website Visitors)</a>
+                    </div>
+                </li>
                 <li><a href="#framework" class="nav-link">Framework</a></li>
                 <li><a href="#faq" class="nav-link">FAQ</a></li>
                 <li><a href="https://bookings.laserguidedmarketing.com" class="nav-cta">Book Consultation</a></li>
@@ -716,21 +766,25 @@
                 <h2 class="section-title">AI-Powered Marketing Services</h2>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" id="local-seo">
                     <h3>Local SEO</h3>
                     <p>Dominate local search results and Google Business Profile rankings.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" id="ai-chatbots">
                     <h3>AI Chatbots</h3>
                     <p>24/7 lead capture and customer service automation.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" id="reputation-management">
                     <h3>Reputation Management</h3>
                     <p>Generate 5-star reviews and manage your online presence.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" id="lead-generation">
                     <h3>Lead Generation</h3>
                     <p>Access 130M+ B2B leads and automated outreach systems.</p>
+                </div>
+                <div class="service-card" id="lead-reveal">
+                    <h3>Lead Reveal</h3>
+                    <p>Identify anonymous website visitors and turn them into qualified leads.</p>
                 </div>
             </div>
         </div>
