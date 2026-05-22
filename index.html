@@ -488,7 +488,74 @@
             background-color: var(--bg-primary);
             border-top: 1px solid var(--glass-border);
             padding: 40px 1.5rem 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto 2rem;
+        }
+
+        .footer-brand .logo-text {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand .logo-text span {
+            color: var(--gold);
+        }
+
+        .footer-brand p {
+            color: var(--light-grey);
+            font-size: 0.9rem;
+        }
+
+        .footer-links h4,
+        .footer-contact h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .footer-links ul,
+        .footer-contact ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .footer-links a,
+        .footer-contact a {
+            color: var(--light-grey);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover,
+        .footer-contact a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
             text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .footer-bottom p {
+            color: var(--light-grey);
+            font-size: 0.875rem;
         }
         
         /* Desktop Styles */
@@ -559,9 +626,13 @@
             .cta-card {
                 padding: 4rem;
             }
-            
+
             .footer {
                 padding: 60px 2rem 30px;
+            }
+
+            .footer-content {
+                grid-template-columns: 2fr 1fr 1fr;
             }
         }
         
@@ -730,7 +801,30 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 My Global Mobile. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="logo-text">My Global <span>Mobile</span></p>
+                    <p>AI-powered marketing for Montgomery County businesses.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#framework">Framework</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#service-area">Service Area</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://bookings.laserguidedmarketing.com">Book Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 My Global Mobile. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
