@@ -264,11 +264,21 @@
             width: 100%;
             color: var(--white);
             font-weight: 600;
+            text-align: left;
+            justify-content: flex-start;
         }
 
         .dropdown-item {
             color: var(--white);
             font-weight: 500;
+            text-align: left;
+        }
+
+        .menu-divider {
+            height: 1px;
+            background-color: var(--glass-border);
+            margin: 0.5rem 1rem;
+            list-style: none;
         }
 
         .dropdown {
@@ -782,7 +792,9 @@
                         <a href="#lead-reveal" class="dropdown-item">Lead Reveal (Identify Website Visitors)</a>
                     </div>
                 </li>
-                <li><a href="#faq" class="nav-link" style="text-align: left;">FAQ</a></li>
+                <li class="menu-divider"></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="menu-divider"></li>
                 <li><a href="https://bookings.laserguidedmarketing.com" class="nav-cta">Book Consultation</a></li>
             </ul>
         </div>
