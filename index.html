@@ -264,21 +264,27 @@
             width: 100%;
             color: var(--white);
             font-weight: 600;
-            text-align: left;
-            justify-content: flex-start;
+            text-align: left !important;
+            justify-content: flex-start !important;
+            display: block;
+            line-height: 1.2;
         }
 
         .dropdown-item {
             color: var(--white);
             font-weight: 500;
             text-align: left;
+            display: block;
+            padding: 0.75rem 1rem;
+            line-height: 1.2;
         }
 
         .menu-divider {
-            height: 1px;
-            background-color: var(--glass-border);
-            margin: 0.5rem 1rem;
+            height: 2px;
+            background-color: var(--gold);
+            margin: 0.75rem 0;
             list-style: none;
+            opacity: 0.3;
         }
 
         .dropdown {
