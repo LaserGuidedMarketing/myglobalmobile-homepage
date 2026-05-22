@@ -401,6 +401,26 @@
             font-size: 0.95rem;
             padding: 0.25rem 0;
         }
+
+        .location-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin: 0;
+        }
+
+        .faq-answer {
+            color: var(--light-grey);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            padding: 0 1.5rem 1.5rem;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
         
         /* FAQ */
         .faq-grid {
@@ -631,24 +651,24 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Service Area</span>
-                <h2 class="section-title">Montgomery County & Surrounding Areas</h2>
+                <h2 class="section-title">Service Area: Montgomery County & Surrounding Areas</h2>
             </div>
             <div class="service-area-grid">
-                <div class="service-area-card"><h3>Montgomery, TX</h3></div>
-                <div class="service-area-card"><h3>Conroe, TX</h3></div>
-                <div class="service-area-card"><h3>Walden, TX</h3></div>
-                <div class="service-area-card"><h3>Willis, TX</h3></div>
-                <div class="service-area-card"><h3>Wood Forest, TX</h3></div>
-                <div class="service-area-card"><h3>The Woodlands, TX</h3></div>
-                <div class="service-area-card"><h3>Spring, TX</h3></div>
-                <div class="service-area-card"><h3>Magnolia, TX</h3></div>
-                <div class="service-area-card"><h3>Dobbin, TX</h3></div>
-                <div class="service-area-card"><h3>Pinehurst, TX</h3></div>
-                <div class="service-area-card"><h3>Stagecoach, TX</h3></div>
-                <div class="service-area-card"><h3>Plantersville, TX</h3></div>
-                <div class="service-area-card"><h3>Huntsville, TX</h3></div>
-                <div class="service-area-card"><h3>Panorama Village, TX</h3></div>
-                <div class="service-area-card"><h3>Houston, TX</h3></div>
+                <div class="service-area-card"><p class="location-name">Montgomery, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Conroe, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Walden, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Willis, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Wood Forest, TX</p></div>
+                <div class="service-area-card"><p class="location-name">The Woodlands, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Spring, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Magnolia, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Dobbin, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Pinehurst, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Stagecoach, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Plantersville, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Huntsville, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Panorama Village, TX</p></div>
+                <div class="service-area-card"><p class="location-name">Houston, TX</p></div>
             </div>
         </div>
     </section>
@@ -661,16 +681,20 @@
             </div>
             <div class="faq-grid">
                 <div class="faq-item">
-                    <button class="faq-question">What is AI-powered marketing?</button>
+                    <h3 class="faq-question">What is AI-powered marketing?</h3>
+                    <p class="faq-answer">AI-powered marketing uses artificial intelligence to automate and optimize marketing tasks, from lead generation to customer engagement.</p>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">How quickly can I see results?</button>
+                    <h3 class="faq-question">How quickly can I see results?</h3>
+                    <p class="faq-answer">Most clients see measurable improvements within 30-60 days, with significant results typically appearing within 90 days.</p>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">Do you work with my industry?</button>
+                    <h3 class="faq-question">Do you work with my industry?</h3>
+                    <p class="faq-answer">We work with local service businesses including roofers, plumbers, HVAC, contractors, healthcare professionals, and real estate agents.</p>
                 </div>
                 <div class="faq-item">
-                    <button class="faq-question">What makes you different?</button>
+                    <h3 class="faq-question">What makes you different?</h3>
+                    <p class="faq-answer">We combine AI technology with proven marketing strategies, focusing on measurable ROI and automated systems that work 24/7.</p>
                 </div>
             </div>
         </div>
@@ -679,7 +703,7 @@
     <section>
         <div class="container">
             <div class="cta-card">
-                <h2>Ready to Transform Your Business?</h2>
+                <h2 class="section-title">Ready to Transform Your Business?</h2>
                 <p>Book a free 15-minute consultation to discuss your marketing goals.</p>
                 <a href="https://bookings.laserguidedmarketing.com" class="btn btn-primary">Book Free Consultation</a>
             </div>
