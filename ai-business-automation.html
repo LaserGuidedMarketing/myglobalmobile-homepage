@@ -523,6 +523,62 @@
         }
 
         /* Final CTA */
+        /* FAQ Section */
+        .faq-section {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+        @media (max-width: 768px) {
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .faq-item {
+            background: linear-gradient(145deg, rgba(74, 85, 104, 0.3) 0%, rgba(74, 85, 104, 0.1) 100%);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .faq-item:hover {
+            border-color: var(--gold);
+            transform: translateY(-3px);
+        }
+        .faq-item h3 {
+            color: var(--gold);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .faq-item p {
+            color: var(--light-grey);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .faq-item ul {
+            list-style: none;
+            color: var(--light-grey);
+            font-size: 0.9rem;
+        }
+        .faq-item li {
+            padding: 0.3rem 0;
+            padding-left: 1.25rem;
+            position: relative;
+        }
+        .faq-item li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+
         .final-cta {
             background: linear-gradient(135deg, var(--bg-primary) 0%, #0a2a5c 100%);
             text-align: center;
@@ -957,6 +1013,94 @@
                     <div class="ahead-number">3</div>
                     <h3>Continuously Evolve with AI Technology</h3>
                     <p>AI technologies are evolving rapidly. Businesses that continually adapt, optimize, and implement new AI capabilities will maintain stronger competitive advantages over businesses that resist innovation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions About AI Automation Agencies</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What does an AI Automation Agency do?</h3>
+                    <p>An AI Automation Agency helps businesses implement Artificial Intelligence systems, workflow automations, AI chatbots, AI agents, and operational automations designed to improve efficiency, reduce manual labor, generate more leads, improve customer experiences, and increase profitability.</p>
+                    <p>These agencies analyze business processes and build customized AI solutions tailored to each company's operational needs and growth goals.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can AI automation help my business?</h3>
+                    <p>AI automation can help businesses by automating repetitive tasks, improving customer communication, increasing operational efficiency, reducing costs, generating more leads, improving follow-up systems, enhancing marketing performance, and streamlining internal workflows.</p>
+                    <p>Businesses using AI automation often save significant time while improving productivity and scalability.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What types of businesses benefit from AI automation?</h3>
+                    <p>Virtually every industry can benefit from AI automation solutions.</p>
+                    <p>Common industries using AI automation include:</p>
+                    <ul>
+                        <li>Roofing Companies</li>
+                        <li>Plumbing Companies</li>
+                        <li>HVAC Businesses</li>
+                        <li>Electricians</li>
+                        <li>Contractors</li>
+                        <li>Medical Practices</li>
+                        <li>Dentists</li>
+                        <li>Law Firms</li>
+                        <li>Marketing Agencies</li>
+                        <li>Real Estate Professionals</li>
+                        <li>E-Commerce Companies</li>
+                        <li>Consultants</li>
+                        <li>Service-Based Businesses</li>
+                    </ul>
+                    <p style="margin-top: 1rem;">AI automation can be customized to fit businesses of nearly any size or industry.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are AI agents?</h3>
+                    <p>AI agents are intelligent software systems capable of performing tasks, making decisions, handling workflows, responding to customers, processing information, and automating business operations with minimal human intervention.</p>
+                    <p>Agentic AI systems can often function like virtual employees capable of managing repetitive operational processes automatically.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are AI chatbots the same as AI automation?</h3>
+                    <p>No. AI chatbots are only one component of AI automation.</p>
+                    <p>AI automation includes a much broader range of technologies such as:</p>
+                    <ul>
+                        <li>Workflow automations</li>
+                        <li>AI voice systems</li>
+                        <li>AI lead qualification</li>
+                        <li>AI appointment scheduling</li>
+                        <li>AI content generation</li>
+                        <li>CRM automations</li>
+                        <li>AI email systems</li>
+                        <li>AI customer support systems</li>
+                        <li>Business process automations</li>
+                    </ul>
+                    <p style="margin-top: 1rem;">AI chatbots are simply one tool within a larger AI automation strategy.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How much does AI automation cost?</h3>
+                    <p>The cost of AI automation depends on the complexity of the systems being implemented, the size of the business, required integrations, workflow customization, and ongoing optimization needs.</p>
+                    <p>Some businesses begin with small automations, while others implement enterprise-level AI systems across multiple departments.</p>
+                    <p>Most businesses find that AI automation quickly pays for itself through improved efficiency, labor savings, and increased revenue opportunities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can AI automation replace employees?</h3>
+                    <p>AI automation is typically designed to enhance employee productivity rather than completely replace human workers.</p>
+                    <p>AI systems are best used for repetitive, time-consuming, and administrative tasks so employees can focus on higher-value activities such as customer relationships, strategy, sales, and business growth.</p>
+                    <p>Businesses that combine human expertise with AI automation often achieve the best results.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is the difference between traditional automation and AI automation?</h3>
+                    <p>Traditional automation follows fixed rules and workflows.</p>
+                    <p>AI automation goes much further by using Artificial Intelligence, machine learning, natural language processing, and intelligent decision-making capabilities to adapt, analyze data, improve responses, and handle more complex business tasks dynamically.</p>
+                    <p>AI automation systems are significantly more flexible and intelligent than standard automation tools.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does it take to implement AI automation?</h3>
+                    <p>Implementation timelines vary depending on the complexity of the project. Simple automations like chatbots can be deployed in days, while comprehensive business-wide AI systems may take several weeks or months.</p>
+                    <p>My Global Mobile works with businesses to prioritize high-impact automations first, delivering quick wins while building toward long-term comprehensive solutions.</p>
                 </div>
             </div>
         </div>
