@@ -274,15 +274,65 @@
         .intro-section {
             background-color: rgba(255, 255, 255, 0.02);
         }
-        .intro-content {
-            max-width: 900px;
-            margin: 0 auto;
+        .two-column-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        @media (max-width: 768px) {
+            .two-column-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+        .column-content {
+            padding-right: 2rem;
+        }
+        .column-visual {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .visual-card {
+            background-color: #004c77;
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .column-visual .visual-card:nth-child(2) {
+            background-color: #434656;
+        }
+        .column-visual .visual-card:nth-child(3) {
+            background-color: #867555;
+        }
+        .visual-icon {
+            font-size: 2rem;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            flex-shrink: 0;
+        }
+        .visual-card h3 {
+            color: var(--gold);
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+        .visual-card p {
+            color: var(--light-grey);
+            font-size: 0.9rem;
         }
         .intro-text {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             line-height: 1.8;
             color: var(--light-grey);
-            text-align: center;
         }
         .intro-text strong {
             color: var(--gold);
@@ -887,10 +937,30 @@
     <!-- What Is Section -->
     <section class="intro-section">
         <div class="container">
-            <div class="intro-content">
-                <span class="section-label">What We Do</span>
-                <h2 class="section-title">AI Business Automation Agency</h2>
-                <p class="intro-text">An <strong>AI Automation Agency</strong> helps businesses streamline operations, reduce manual work, increase efficiency, improve customer experiences, and generate more revenue through the strategic implementation of Artificial Intelligence (AI), Agentic AI Systems, and Business Automation Technologies.<br><br>In today's rapidly evolving digital economy, companies that fail to embrace AI automation risk falling behind competitors who are already using intelligent systems to automate repetitive tasks, improve marketing performance, increase productivity, and scale operations faster than ever before.<br><br>As the <strong>best AI Automation Agency in Montgomery County Texas</strong>, My Global Mobile bridges the gap between traditional business operations and the future of intelligent automation by designing, deploying, and managing custom AI-driven solutions tailored to the specific needs of each business.</p>
+            <div class="two-column-grid">
+                <div class="column-content">
+                    <span class="section-label">What We Do</span>
+                    <h2 class="section-title" style="text-align: left;">AI Business Automation Agency</h2>
+                    <p class="intro-text" style="text-align: left;">An <strong>AI Automation Agency</strong> helps businesses streamline operations, reduce manual work, increase efficiency, improve customer experiences, and generate more revenue through the strategic implementation of Artificial Intelligence (AI), Agentic AI Systems, and Business Automation Technologies.</p>
+                    <p class="intro-text" style="text-align: left; margin-top: 1rem;">In today's rapidly evolving digital economy, companies that fail to embrace AI automation risk falling behind competitors who are already using intelligent systems to automate repetitive tasks, improve marketing performance, increase productivity, and scale operations faster than ever before.</p>
+                </div>
+                <div class="column-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">🤖</div>
+                        <h3>Intelligent Automation</h3>
+                        <p>Custom AI solutions designed for your specific business needs</p>
+                    </div>
+                    <div class="visual-card">
+                        <div class="visual-icon">⚡</div>
+                        <h3>Rapid Implementation</h3>
+                        <p>Get up and running with AI automation quickly</p>
+                    </div>
+                    <div class="visual-card">
+                        <div class="visual-icon">📈</div>
+                        <h3>Measurable Results</h3>
+                        <p>Track ROI and performance improvements in real-time</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
