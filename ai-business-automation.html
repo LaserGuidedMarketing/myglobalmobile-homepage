@@ -136,6 +136,51 @@
             font-size: 0.85rem;
             letter-spacing: 0.5px;
         }
+        .nav-item {
+            position: relative;
+        }
+        .dropdown-menu {
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-primary);
+            border: 2px solid var(--gold);
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+            padding: 0;
+            padding-top: 10px;
+            margin: 0;
+            min-width: 300px;
+            display: none;
+            z-index: 10000;
+        }
+        .dropdown-menu::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 0;
+            right: 0;
+            height: 10px;
+        }
+        .dropdown-parent:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-item {
+            display: block;
+            padding: 0.75rem 1rem;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        .dropdown-item:hover {
+            background-color: rgba(201, 179, 88, 0.1);
+            color: var(--gold);
+        }
+        .book-consult-item {
+            margin-left: auto;
+        }
 
         /* Hero */
         .hero {
@@ -721,7 +766,7 @@
             border-radius: 3px;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1023px) {
             .mobile-menu-toggle {
                 display: flex;
             }
@@ -731,13 +776,47 @@
                 top: 80px;
                 left: 0;
                 right: 0;
-                background-color: var(--bg-primary);
+                background-color: var(--bg-card);
                 flex-direction: column;
                 padding: 1.5rem;
                 border-top: 1px solid var(--glass-border);
+                gap: 0.5rem;
+                max-height: calc(100vh - 80px);
+                overflow-y: auto;
             }
             .nav-menu.active {
                 display: flex;
+            }
+            .nav-item {
+                width: 100%;
+            }
+            .nav-link {
+                display: block;
+                padding: 1rem;
+                font-size: 1.1rem;
+            }
+            .dropdown-menu {
+                position: static;
+                border: none;
+                box-shadow: none;
+                margin: 0.5rem 0 0 1rem;
+                padding-left: 1rem;
+                border-left: 2px solid var(--gold);
+                display: block;
+                background-color: transparent;
+            }
+            .dropdown-item {
+                padding: 0.75rem 1rem;
+                border-bottom: none;
+                font-size: 1rem;
+            }
+            .book-consult-item {
+                margin: 1rem 0 0 0;
+            }
+            .nav-cta {
+                display: block;
+                text-align: center;
+                padding: 1rem;
             }
             .footer-content {
                 grid-template-columns: 1fr;
@@ -767,11 +846,27 @@
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/ai-business-automation/" class="nav-link" style="color: var(--gold);">Services</a></li>
-                <li><a href="/about-us/" class="nav-link">About</a></li>
-                <li><a href="/contact/" class="nav-link">Contact</a></li>
-                <li><a href="https://bookings.laserguidedmarketing.com" class="nav-link nav-cta">Book Consultation</a></li>
+                <li class="nav-item dropdown-parent">
+                    <a href="#services" class="nav-link">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://myglobalmobile.com/ai-business-automation/" class="dropdown-item">AI Business Automation Agency</a></li>
+                        <li><a href="https://myglobalmobile.com/agentic-ai-agents/" class="dropdown-item">Agentic AI Agents</a></li>
+                        <li><a href="https://myglobalmobile.com/agentic-ai-chatbots/" class="dropdown-item">Agentic AI Chatbots</a></li>
+                        <li><a href="https://myglobalmobile.com/rank-google-business-profile/" class="dropdown-item">Rank Google Business Profile</a></li>
+                        <li><a href="https://myglobalmobile.com/rank-in-aeo-and-geo/" class="dropdown-item">Rank in AEO & GEO (AI Search)</a></li>
+                        <li><a href="https://myglobalmobile.com/social-media-management/" class="dropdown-item">Social Media Management</a></li>
+                        <li><a href="https://myglobalmobile.com/lead-generation-services/" class="dropdown-item">DFY Lead Generation</a></li>
+                        <li><a href="https://myglobalmobile.com/lead-reveal/" class="dropdown-item">Lead Reveal (ID Website Visitors)</a></li>
+                        <li><a href="https://myglobalmobile.com/online-reputation-management/" class="dropdown-item">Online Reputation Management</a></li>
+                        <li><a href="https://myglobalmobile.com/build-sales-funnels/" class="dropdown-item">Best Sales Funnel Builder</a></li>
+                        <li><a href="https://myglobalmobile.com/dfy-online-newsletters/" class="dropdown-item">DFY Online Newsletters</a></li>
+                        <li><a href="https://myglobalmobile.com/dfy-online-courses/" class="dropdown-item">DFY Online Course Creation</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item faq-desktop-only"><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="https://myglobalmobile.com/about-us/" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="https://myglobalmobile.com/contact/" class="nav-link">Contact</a></li>
+                <li class="book-consult-item"><a href="https://bookings.laserguidedmarketing.com" class="nav-cta">Book Consultation</a></li>
             </ul>
         </div>
     </nav>
