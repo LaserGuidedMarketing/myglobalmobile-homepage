@@ -409,10 +409,12 @@
             }
 
             /* Mobile Footer Styles */
-            .footer-bottom {
-                padding: 0;
-                display: flex;
-                flex-direction: column;
+            .footer {
+                padding: 40px 0 0 0;
+            }
+
+            .footer-content {
+                padding: 0 1.5rem;
             }
 
             .footer-banner {
@@ -432,13 +434,12 @@
                 object-fit: cover;
             }
 
-            .footer-bottom p {
+            .footer-copyright {
                 padding: 1.5rem;
                 margin: 0;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                flex-grow: 1;
                 min-height: 80px;
             }
 
@@ -967,12 +968,15 @@
         .footer {
             background-color: var(--bg-primary);
             border-top: 1px solid var(--glass-border);
-            padding: 40px 1.5rem 0;
+            padding: 40px 0 0 0;
+            display: flex;
+            flex-direction: column;
         }
 
         .footer-content {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 0 1.5rem;
         }
 
         .footer-links {
@@ -1044,26 +1048,28 @@
             color: var(--gold);
         }
 
-        .footer-bottom {
-            text-align: center;
-            padding: 2rem 1.5rem;
-            border-top: 1px solid var(--glass-border);
-            background-color: #001032;
-        }
-
         .footer-banner {
-            margin-top: 10px;
-            margin-bottom: 1.5rem;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            line-height: 0;
         }
 
         .footer-banner img {
+            width: 100%;
             max-width: 100%;
             height: auto;
+            display: block;
+            vertical-align: bottom;
         }
 
-        .footer-bottom p {
+        .footer-copyright {
             color: var(--light-grey);
             font-size: 0.875rem;
+            text-align: center;
+            padding: 1.5rem;
+            margin: 0;
+            background-color: #001032;
         }
 
         /* Desktop Styles */
@@ -1193,9 +1199,11 @@
             }
 
             .footer-banner img {
-                width: auto;
+                width: 100%;
                 max-width: 900px;
                 height: auto;
+                margin: 0 auto;
+                display: block;
             }
 
             .service-image {
@@ -1614,14 +1622,11 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-    <section class="footer-bottom">
         <div class="footer-banner">
             <img src="images/mgm_banner_logo.jpg" alt="My Global Mobile">
         </div>
-        <p>&copy; 2025 My Global Mobile. All rights reserved.</p>
-    </section>
+        <p class="footer-copyright">&copy; 2025 My Global Mobile. All rights reserved.</p>
+    </footer>
     <script>
         // Mobile menu toggle
         document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
