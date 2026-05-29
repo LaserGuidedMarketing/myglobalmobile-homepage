@@ -1,36 +1,10 @@
 User-agent: *
 Allow: /
-Allow: /how-to-rank-in-google-maps.html
-Allow: /chatbot-profit-secrets-ebook.html
-Allow: /ai-chatbot-30-day-free-trial.html
-Allow: /ai-chatbot-done-for-you-set-up.html
-Allow: /how-to-get-more-5-star-reviews-with-online-reputation-managment.html
-Allow: /online-reputation-management-secrets-ebook.html
-Allow: /online-reputation-management-30-day-free-trial.html
-Allow: /online-reputation-management-done-for-you-setup.html
-Allow: /online-reputation-management-done-for-you-service.html
-Allow: /best-seo-agency-conroe-texas.html
-Allow: /lead-generation-services.html
-Allow: /lead-reveal-capture-and-convert-anonymous-website-visitors-into-first-party-data.html
-Allow: /b2b-leads-from-google-maps-and-linkedin.html
-Allow: /pay-per-call-leads.html
-Allow: /contact.html
-Allow: /terms-conditions-privacy-policy-and-disclaimers.html
-Allow: /images/
-
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://myglobalmobile.com/sitemap.xml
 
-# Disallow admin and utility pages
-Disallow: /admin/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /private/
-
-# Allow major search engines full access
+# Allow all search engines to crawl everything
 User-agent: Googlebot
 Allow: /
 
@@ -38,6 +12,9 @@ User-agent: Bingbot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
 Allow: /
 
 User-agent: Claude-Web
@@ -48,3 +25,7 @@ Allow: /
 
 User-agent: anthropic-ai
 Allow: /
+
+# Disallow admin or private areas (if any in future)
+# Disallow: /admin/
+# Disallow: /private/

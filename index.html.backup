@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My Global Mobile | AI-Powered Marketing & Business Growth Systems | Montgomery County TX</title>
+    <meta name="description" content="Transform your business with AI-powered marketing, automated workflows, local SEO, Google Business Profile optimization, reputation management, and lead generation in Montgomery County, Texas.">
+    <meta name="theme-color" content="#011f46">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://myglobalmobile.com/#organization",
+                "name": "My Global Mobile",
+                "url": "https://myglobalmobile.com",
+                "logo": {"@type": "ImageObject", "url": "https://myglobalmobile.com/images/mgm_logo_1B.png"},
+                "description": "AI-powered marketing and business growth systems for local businesses in Montgomery County, Texas"
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://myglobalmobile.com/#localbusiness",
+                "name": "My Global Mobile",
+                "description": "AI-powered marketing agency specializing in local SEO, reputation management, lead generation, and business automation",
+                "url": "https://myglobalmobile.com",
+                "areaServed": [
+                    {"@type": "City", "name": "Montgomery"},
+                    {"@type": "City", "name": "Conroe"},
+                    {"@type": "City", "name": "The Woodlands"},
+                    {"@type": "City", "name": "Spring"},
+                    {"@type": "City", "name": "Willis"},
+                    {"@type": "City", "name": "Magnolia"},
+                    {"@type": "City", "name": "Walden"},
+                    {"@type": "City", "name": "Wood Forest"},
+                    {"@type": "City", "name": "Dobbin"},
+                    {"@type": "City", "name": "Pinehurst"},
+                    {"@type": "City", "name": "Stagecoach"},
+                    {"@type": "City", "name": "Plantersville"},
+                    {"@type": "City", "name": "Huntsville"},
+                    {"@type": "City", "name": "Panorama Village"},
+                    {"@type": "City", "name": "North Houston"}
+                ],
+                "serviceType": ["Google Business Profile Ranking", "AEO and GEO Optimization", "AI Chatbot Development", "Lead Generation", "B2B Lead Generation", "Lead Reveal", "Online Reputation Management", "Marketing Automation", "Strategic Business Consulting"]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://myglobalmobile.com/#website",
+                "url": "https://myglobalmobile.com",
+                "name": "My Global Mobile"
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is AI-powered marketing and how does it work for Montgomery County businesses?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI-powered marketing uses artificial intelligence and machine learning to automate, optimize, and scale your marketing efforts. For Montgomery County businesses in Conroe, The Woodlands, Spring, and surrounding areas, this means: Automated lead generation — AI identifies and targets high-intent customers searching for your services; Smart content creation — Generate SEO-optimized blog posts, social media content, and ad copy at scale; Predictive analytics — Understand which marketing channels deliver the best ROI for your specific industry; 24/7 customer engagement — AI chatbots capture leads and answer questions even when you're off the clock. Unlike traditional marketing agencies that rely on manual processes, our AI marketing systems in Montgomery County, Texas continuously learn and improve, delivering better results over time while reducing your marketing costs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How quickly can Montgomery County businesses see results from AI marketing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most Montgomery County businesses see measurable improvements within 30 to 60 days, with significant results typically appearing within 90 days. Week 1-2: AI systems audit your current marketing, analyze competitors in Montgomery County, and begin optimization. Week 3-4: Content creation and local SEO improvements start driving increased visibility. Month 2: Lead volume increases as AI targeting refines; chatbots begin capturing after-hours inquiries. Month 3+: Full system optimization delivers consistent, scalable lead generation and measurable ROI. Factors affecting speed include your current online presence, competition level in your specific Montgomery County area (Conroe vs. The Woodlands vs. Spring), and how quickly we can implement AI automation across your marketing channels."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What industries do you serve in Montgomery County, Texas?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We specialize in AI-powered marketing for local service businesses throughout Montgomery County, TX, including: Home Services — Roofers, plumbers, electricians, HVAC companies, painters, and general contractors in Conroe, The Woodlands, and Spring; Outdoor Living — Pool builders, landscape designers, patio contractors, and outdoor kitchen specialists serving Montgomery County; Healthcare — Chiropractors, dentists, medical spas, and wellness professionals in The Woodlands and surrounding areas; Real Estate — Realtors, property managers, and home inspectors throughout Montgomery County, Texas; Professional Services — Attorneys, accountants, insurance agents, and financial advisors in Conroe and Willis; Automotive — Auto repair shops, detailing services, and dealerships serving Montgomery County residents. Our AI marketing systems are specifically trained on what works for local service businesses competing in the Montgomery County market, from ranking in Google Maps to generating 5-star reviews."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes My Global Mobile different from other marketing agencies in Montgomery County?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Unlike traditional marketing agencies in Montgomery County that rely on manual work and generic strategies, we combine cutting-edge AI technology with proven local marketing expertise: AI-First Approach — We use proprietary AI agents and software platforms that automate lead generation, content creation, and customer follow-up — systems that work 24/7 without human intervention; Montgomery County Specialization — We understand the local market dynamics of Conroe, The Woodlands, Spring, Willis, and surrounding areas — what keywords rank, where customers search, and how to dominate local search results; Measurable ROI Focus — Every campaign tracks leads, conversions, and revenue — you see exactly what your marketing investment returns; OCBA Rank Framework — Our proprietary Optimize-Create-Boost-Automate system ensures consistent, scalable growth rather than one-time tactics; Done-For-You + Done-With-You — We can fully manage your marketing OR train your team to use our AI platforms — flexibility that fits your business. We're not just another agency — we're your AI-powered growth partner for long-term success in Montgomery County, Texas."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How much does AI marketing cost for small businesses in Montgomery County?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our AI marketing services are designed to be accessible for Montgomery County small businesses while delivering enterprise-level results. Pricing typically ranges from $1,500 to $5,000+ per month depending on: Service Level — Google Business Profile ranking, AEO & GEO optimization and reputation management start lower; full AI automation with chatbots, content generation, and lead nurturing are higher investment; Competition — Highly competitive industries (personal injury law, luxury home builders) in The Woodlands require more aggressive strategies; Geographic Scope — Targeting all of Montgomery County vs. specific cities like Conroe or Spring affects scope; Current Position — Businesses starting from zero need more foundational work than those with existing marketing infrastructure. We offer a free 15-minute consultation to assess your needs and provide a custom quote. Most clients see positive ROI within 60-90 days, with AI automation reducing long-term marketing costs while increasing lead volume."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you offer AI chatbots for Montgomery County businesses?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes! AI chatbots are one of our most popular services for Montgomery County businesses. Our intelligent chatbots: Capture leads 24/7 — Never miss an inquiry, even at 2 AM or on weekends; Answer common questions — Pricing, services, hours, location — freeing up your team; Qualify prospects — Ask pre-screening questions to ensure you only talk to serious buyers; Schedule appointments — Integrate with your calendar to book consultations automatically; Speak multiple languages — Serve Montgomery County's diverse community including Spanish-speaking customers. Our AI chatbots are trained specifically on your business — your services, your pricing, your brand voice — so they sound like a knowledgeable member of your team. Perfect for roofers, plumbers, HVAC companies, medical practices, and any Montgomery County business that wants to capture more leads without hiring additional staff."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+    <style>
+        /* CSS Variables - Unified Color Scheme */
+        :root {
+            --bg-primary: #011f46;
+            --bg-card: #4a5568;
+            --gold: #c9b358;
+            --light-grey: #c0c0c0;
+            --white: #ffffff;
+            --glass-border: rgba(201, 179, 88, 0.25);
+        }
+
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Base Styles - Mobile First */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Navigation */
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: var(--bg-primary);
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+            position: relative;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 45px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+
+        .logo-text span {
+            color: var(--gold);
+        }
+
+        /* Mobile menu toggle */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .mobile-menu-toggle span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--gold);
+            transition: all 0.3s ease;
+        }
+
+        /* Base nav menu */
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            color: var(--light-grey);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.6rem 0.9rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .nav-link:hover {
+            color: var(--gold);
+            background-color: rgba(201, 179, 88, 0.1);
+        }
+
+        .nav-cta {
+            color: var(--bg-primary);
+            background-color: var(--gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 700;
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            white-space: nowrap;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-cta:hover {
+            background-color: #f4dd72;
+        }
+
+        .book-consult-item {
+            margin-left: 10px;
+        }
+
+        /* Dropdown menu - hidden by default */
+        .dropdown-menu {
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-primary);
+            border: 2px solid var(--gold);
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+            padding: 0;
+            padding-top: 10px;
+            margin: 0;
+            margin-top: 0;
+            min-width: 300px;
+            display: none;
+            z-index: 10000;
+        }
+
+        /* Invisible bridge to keep hover active */
+        .dropdown-menu::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 0;
+            right: 0;
+            height: 10px;
+        }
+
+        .dropdown-menu li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: var(--light-grey);
+            text-decoration: none;
+            white-space: nowrap;
+            border-bottom: 1px solid var(--gold);
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-menu li:last-child .dropdown-item {
+            border-bottom: none;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(201, 179, 88, 0.2);
+            color: var(--gold);
+        }
+
+        /* Desktop: show dropdown on hover */
+        @media (min-width: 1024px) {
+            .dropdown-parent:hover .dropdown-menu {
+                display: block;
+            }
+
+            .mobile-menu-toggle {
+                display: none;
+            }
+        }
+
+        /* Mobile styles */
+        @media (max-width: 1023px) {
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                display: none;
+                position: fixed;
+                top: 80px;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                padding: 1.5rem;
+                border-top: 1px solid var(--glass-border);
+                gap: 0.5rem;
+                max-height: calc(100vh - 80px);
+                overflow-y: auto;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-item {
+                width: 100%;
+            }
+
+            .nav-link {
+                display: block;
+                padding: 1rem;
+                font-size: 1.1rem;
+            }
+
+            .dropdown-menu {
+                position: static;
+                border: none;
+                box-shadow: none;
+                margin: 0.5rem 0 0 1rem;
+                padding-left: 1rem;
+                border-left: 2px solid var(--gold);
+                display: block;
+            }
+
+            .dropdown-item {
+                padding: 0.75rem 1rem;
+                border-bottom: none;
+                font-size: 1rem;
+            }
+
+            .book-consult-item {
+                margin: 1rem 0 0 0;
+            }
+
+            .nav-cta {
+                display: block;
+                text-align: center;
+                padding: 1rem;
+            }
+        }
+
+        .nav-item {
+            width: 100%;
+        }
+
+        .nav-link {
+            padding: 1rem;
+            width: 100%;
+            color: var(--white);
+            font-weight: 600;
+            text-align: left !important;
+            justify-content: flex-start !important;
+            display: block;
+            line-height: 1.2;
+        }
+
+        .dropdown-item {
+            color: var(--white);
+            font-weight: 500;
+            text-align: left;
+            display: block;
+            padding: 0.75rem 1rem;
+            line-height: 1.2;
+        }
+
+        .menu-divider {
+            height: 2px;
+            background-color: var(--gold);
+            margin: 0.75rem 0;
+            list-style: none;
+            opacity: 1;
+        }
+
+        .dropdown {
+            position: static;
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+            background: none;
+            border: none;
+            padding-left: 1rem;
+        }
+
+        .nav-cta {
+            padding: 0.65rem 1.25rem;
+            background-color: var(--gold);
+            color: var(--bg-primary);
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .mobile-menu-toggle {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu-toggle span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--gold);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 1.5rem 60px;
+            background-color: var(--bg-primary);
+        }
+
+        .hero-content {
+            max-width: 950px;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.6rem 1.25rem;
+            background-color: var(--gold);
+            border-radius: 50px;
+            font-size: 0.8rem;
+            color: var(--bg-primary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 .highlight {
+            color: var(--gold);
+        }
+
+        .hero-subtitle {
+            font-size: 0.95rem;
+            color: var(--light-grey);
+            max-width: 650px;
+            margin: 0 auto 2.5rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .btn-primary {
+            background-color: var(--gold);
+            color: var(--bg-primary);
+        }
+
+        .btn-secondary {
+            background-color: var(--white);
+            color: var(--bg-primary);
+            border: 1px solid var(--glass-border);
+        }
+
+        .btn-secondary:hover {
+            background-color: transparent;
+            color: var(--white);
+            border-color: var(--glass-border);
+        }
+
+        .hero-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: var(--gold);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--light-grey);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 1.5rem;
+            background-color: var(--bg-primary);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 850px;
+            margin: 0 auto 3rem;
+        }
+
+        .section-label {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            background-color: rgba(201, 179, 88, 0.12);
+            border: 1px solid var(--glass-border);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        /* Cards - Unified Background */
+        .framework-grid,
+        .services-grid,
+        .service-area-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .service-area-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .location-line {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            color: var(--gold);
+            margin: 0.5rem 0;
+            line-height: 1.8;
+        }
+
+        .framework-card,
+        .service-card,
+        .service-area-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .framework-card {
+            text-align: center;
+        }
+
+        .framework-card h3,
+        .service-area-card h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--gold);
+        }
+
+        .service-card {
+            text-align: center;
+        }
+
+        .service-card h3 { 
+            font-family: 'Space Grotesk', sans-serif; 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            margin-bottom: 0.5rem;
+            color: var(--gold);
+        }
+
+        .service-image {
+            width: 100%;
+            max-width: 200px;
+            margin: 0.75rem auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .service-image svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .service-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 1rem;
+            color: var(--gold);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .service-area-card ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .service-area-card li {
+            color: var(--light-grey);
+            font-size: 0.95rem;
+            padding: 0.25rem 0;
+        }
+
+        .location-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin: 0;
+        }
+
+        .faq-answer {
+            color: var(--light-grey);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            padding: 0 1.5rem 1.5rem;
+            display: none;
+            text-align: left;
+        }
+
+        .faq-answer p {
+            margin-bottom: 1rem;
+        }
+
+        .faq-answer ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .faq-answer li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-icon {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* FAQ */
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.5rem;
+            background-color: transparent;
+            border: none;
+            color: var(--white);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            min-height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* CTA Card */
+        .cta-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--bg-primary);
+            border-top: 1px solid var(--glass-border);
+            padding: 40px 1.5rem 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto 2rem;
+        }
+
+        .footer-brand .logo-text {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-brand .logo-text span {
+            color: var(--gold);
+        }
+
+        .footer-brand p {
+            color: var(--light-grey);
+            font-size: 0.9rem;
+        }
+
+        .footer-links h4,
+        .footer-contact h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .footer-links ul,
+        .footer-contact ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .footer-links a,
+        .footer-contact a {
+            color: var(--light-grey);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover,
+        .footer-contact a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .footer-bottom p {
+            color: var(--light-grey);
+            font-size: 0.875rem;
+        }
+
+        /* Desktop Styles */
+        @media (min-width: 769px) {
+            .nav-container {
+                padding: 0 2rem;
+            }
+
+            .mobile-menu-toggle {
+                display: none;
+            }
+
+            .nav-menu {
+                display: flex;
+                position: static;
+                flex-direction: row;
+                background: none;
+                padding: 0;
+            }
+
+            .hero {
+                padding: 140px 2rem 100px;
+            }
+
+            .hero h1 {
+                font-size: clamp(2rem, 4vw, 3.5rem);
+            }
+
+            .hero-subtitle {
+                font-size: clamp(0.8rem, 1.2vw, 0.95rem);
+            }
+
+            .hero-buttons {
+                flex-direction: row;
+            }
+
+            .btn {
+                width: auto;
+            }
+
+            .hero-stats {
+                flex-direction: row;
+                gap: 4rem;
+            }
+
+            section {
+                padding: 60px 2rem;
+            }
+
+            .section-title {
+                font-size: clamp(1.5rem, 3vw, 2rem);
+            }
+
+            .framework-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .service-area-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .faq-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .framework-card,
+            .service-card,
+            .service-area-card {
+                padding: 2rem;
+            }
+
+            .cta-card {
+                padding: 4rem;
+            }
+
+            .footer {
+                padding: 60px 2rem 30px;
+            }
+
+            .footer-content {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .framework-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 1024px) and (min-width: 769px) {
+            .framework-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+    .service-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .service-learn-more {
+        background-color: var(--gold);
+        color: var(--bg-primary);
+        padding: 0.75rem 2rem;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+    }
+
+    .service-learn-more:hover {
+        background-color: #f4dd72;
+        color: var(--bg-primary);
+    }
+
+    /* Consistent spacing between service rows */
+    .services-row-spacing {
+        margin-top: 3rem;
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="images/mgm_logo_1B.png" alt="My Global Mobile">
+                <span class="logo-text">My Global <span>Mobile</span></span>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item dropdown-parent">
+                    <a href="#services" class="nav-link">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#gbp-ranking" class="dropdown-item">Rank Google Business Profile</a></li>
+                        <li><a href="#aeo-geo-ranking" class="dropdown-item">Rank in AEO & GEO (AI Search)</a></li>
+                        <li><a href="#ai-chatbots" class="dropdown-item">AI Chatbots</a></li>
+                        <li><a href="#lead-generation" class="dropdown-item">Lead Generation</a></li>
+                        <li><a href="#lead-reveal" class="dropdown-item">Lead Reveal (Identify Website Visitors)</a></li>
+                        <li><a href="#reputation-management" class="dropdown-item">Online Reputation Management</a></li>
+                        <li><a href="#faq" class="dropdown-item">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="book-consult-item"><a href="https://bookings.laserguidedmarketing.com" class="nav-cta">Book Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">AI Powered Marketing Automation<br>for Montgomery County Businesses</div>
+            <h1>Transform Your Business with <span class="highlight">Intelligent Marketing Systems</span></h1>
+            <p class="hero-subtitle">Get more brand exposure, leads & sales, and reduce your overhead via our leading-edge AI Software Platforms and Agentic Agents.</p>
+            <div class="hero-buttons">
+                <a href="https://bookings.laserguidedmarketing.com" class="btn btn-primary">Book Free Consultation</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number">50+</span><span class="stat-label">Industries Served</span></div>
+                <div class="stat"><span class="stat-number">130M+</span><span class="stat-label">B2B Leads Available</span></div>
+                <div class="stat"><span class="stat-number">98%</span><span class="stat-label">Client Satisfaction</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">AI-Powered Marketing Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="gbp-ranking">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <h3>Rank Google Business Profile</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="10" y="10" width="180" height="100" rx="4" fill="#2d4a6f"/><circle cx="30" cy="35" r="12" fill="#c9b358"/><text x="50" y="40" fill="#ffffff" font-size="10" font-family="Inter">Google Business Profile</text><rect x="10" y="60" width="180" height="1" fill="#4a5568"/><text x="15" y="80" fill="#c9b358" font-size="8" font-family="Inter">★★★★★ 4.9 (127 reviews)</text><text x="15" y="95" fill="#90cdf4" font-size="8" font-family="Inter">#1 in Montgomery County</text></svg></div>
+                    <p>Dominate Google Maps & Local Pack Rankings in Montgomery County</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/rank-google-business-profile/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="aeo-geo-ranking">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    <h3>Rank in AEO & GEO</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">AI Search Results</text><rect x="25" y="55" width="150" height="20" rx="4" fill="#011f46"/><text x="35" y="68" fill="#ffffff" font-size="9" font-family="Inter">Best plumber in Conroe, TX</text><circle cx="180" cy="65" r="6" fill="#c9b358"/><text x="177" y="68" fill="#011f46" font-size="8" font-weight="bold">1</text><text x="25" y="95" fill="#90cdf4" font-size="8" font-family="Inter">ChatGPT • Perplexity • Google AI</text></svg></div>
+                    <p>AI Search Engine Optimization & Generative Engine Optimization for ChatGPT, Gemini, Perplexity & Claude</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/rank-in-aeo-and-geo" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="ai-chatbots">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <h3>AI Chatbots</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="20" y="20" width="160" height="80" rx="8" fill="#2d4a6f"/><circle cx="40" cy="45" r="8" fill="#c9b358"/><rect x="55" y="40" width="100" height="10" rx="5" fill="#011f46"/><circle cx="160" cy="45" r="8" fill="#4a5568"/><rect x="45" y="65" width="110" height="10" rx="5" fill="#011f46"/><rect x="45" y="80" width="80" height="10" rx="5" fill="#c9b358" opacity="0.3"/><text x="100" y="105" fill="#90cdf4" font-size="8" font-family="Inter" text-anchor="middle">24/7 Automated Conversations</text></svg></div>
+                    <p>24-7-365 Automated Customer Service, Lead Capture & Appointment Booking</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/agentic-ai-chatbots" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="lead-generation">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    <h3>Lead Generation</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="35" fill="#c9b358" font-size="10" font-family="Inter" text-anchor="middle">130M+ B2B Leads Database</text><circle cx="50" cy="60" r="15" fill="#c9b358" opacity="0.8"/><circle cx="100" cy="60" r="15" fill="#c9b358" opacity="0.6"/><circle cx="150" cy="60" r="15" fill="#c9b358" opacity="0.4"/><text x="100" y="90" fill="#90cdf4" font-size="8" font-family="Inter" text-anchor="middle">Automated Email • SMS • LinkedIn</text></svg></div>
+                    <p>Access 130M+ B2B leads and automated outreach systems.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/lead-generation-services/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="lead-reveal">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    <h3>Lead Reveal</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="35" fill="#c9b358" font-size="10" font-family="Inter" text-anchor="middle">Anonymous Visitor Identification</text><path d="M40 70 L70 55 L100 65 L130 45 L160 60" stroke="#c9b358" stroke-width="2" fill="none"/><circle cx="40" cy="70" r="4" fill="#c9b358"/><circle cx="70" cy="55" r="4" fill="#c9b358"/><circle cx="100" cy="65" r="4" fill="#c9b358"/><circle cx="130" cy="45" r="4" fill="#c9b358"/><circle cx="160" cy="60" r="4" fill="#c9b358"/><text x="100" y="95" fill="#90cdf4" font-size="8" font-family="Inter" text-anchor="middle">Turn Visitors Into Qualified Leads</text></svg></div>
+                    <p>Identify anonymous website visitors and turn them into qualified leads.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/lead-reveal/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="reputation-management">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <h3>Online Reputation Management</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="35" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">★★★★★</text><text x="100" y="55" fill="#ffffff" font-size="10" font-family="Inter" text-anchor="middle">5-Star Review Generation</text><rect x="30" y="70" width="140" height="8" rx="4" fill="#011f46"/><rect x="30" y="70" width="120" height="8" rx="4" fill="#c9b358"/><text x="100" y="95" fill="#90cdf4" font-size="8" font-family="Inter" text-anchor="middle">Showcase Reviews Across All Platforms</text></svg></div>
+                    <p>We generate more 5-Star Reviews for your business & showcase them online</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/online-reputation-management" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+            </div>
+
+            <!-- New second row of services -->
+            <div class="services-grid" style="margin-top: 3rem;">
+<div class="services-grid" style="margin-top: 3rem;">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="6" x2="12" y2="12"/><line x1="12" y1="12" x2="16" y2="14"/></svg>
+                    <h3>Agentic AI Agents</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">AI Agents</text><rect x="25" y="60" width="150" height="20" rx="4" fill="#011f46"/><text x="35" y="75" fill="#ffffff" font-size="10" font-family="Inter">Agentic AI Powered Agents</text></svg></div>
+                    <p>Advanced AI agents designed to automate your business processes.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/agentic-ai-agents/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="ai-business-automation">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><line x1="16" y1="3" x2="16" y2="7"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="2" y1="13" x2="22" y2="13"/></svg>
+                    <h3>AI Business Automation</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">Business Automation</text><rect x="30" y="70" width="140" height="20" rx="4" fill="#011f46"/><text x="35" y="85" fill="#ffffff" font-size="10" font-family="Inter">Automate workflows and business processes</text></svg></div>
+                    <p>AI-powered automation solutions to streamline operations.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/ai-business-automation/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="social-media-marketing">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 17a5 5 0 0 0 0-10 5 5 0 0 0 0 10z"/><line x1="12" y1="12" x2="12" y2="12"/></svg>
+                    <h3>Social Media Marketing</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">Social Media</text><rect x="30" y="70" width="140" height="20" rx="4" fill="#011f46"/><text x="35" y="85" fill="#ffffff" font-size="10" font-family="Inter" text-anchor="middle">Boost your online presence</text></svg></div>
+                    <p>Effective social media strategies to increase engagement.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/social media marketing/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+            </div>
+
+            <!-- New second row of services -->
+            <div class="services-grid" style="margin-top: 3rem;">
+<div class="services-grid" style="margin-top: 3rem;">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="6" x2="12" y2="12"/><line x1="12" y1="12" x2="16" y2="14"/></svg>
+                    <h3>Agentic AI Agents</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">AI Agents</text><rect x="25" y="60" width="150" height="20" rx="4" fill="#011f46"/><text x="35" y="75" fill="#ffffff" font-size="10" font-family="Inter">Agentic AI Powered Agents</text></svg></div>
+                    <p>Advanced AI agents designed to automate your business processes.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/agentic-ai-agents/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="ai-business-automation">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><line x1="16" y1="3" x2="16" y2="7"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="2" y1="13" x2="22" y2="13"/></svg>
+                    <h3>AI Business Automation</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">Business Automation</text><rect x="30" y="70" width="140" height="20" rx="4" fill="#011f46"/><text x="35" y="85" fill="#ffffff" font-size="10" font-family="Inter" text-anchor="middle">Automate workflows and business processes</text></svg></div>
+                    <p>AI-powered automation solutions to streamline operations.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/ai-business-automation/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+                <div class="service-card" id="social-media-marketing">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 17a5 5 0 0 0 0-10 5 5 0 0 0 0 10z"/><line x1="12" y1="12" x2="12" y2="12"/></svg>
+                    <h3>Social Media Marketing</h3>
+                    <div class="service-image"><svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" rx="8" fill="#1a365d"/><rect x="15" y="15" width="170" height="90" rx="4" fill="#2d4a6f"/><text x="100" y="40" fill="#c9b358" font-size="12" font-family="Inter" text-anchor="middle">Social Media</text><rect x="30" y="70" width="140" height="20" rx="4" fill="#011f46"/><text x="35" y="85" fill="#ffffff" font-size="10" font-family="Inter" text-anchor="middle">Boost your online presence</text></svg></div>
+                    <p>Effective social media strategies to increase engagement.</p>
+                    <div class="service-button-container"><a href="https://myglobalmobile.com/social media marketing/" class="btn btn-primary service-learn-more">Learn More</a></div>
+                </div>
+            </div>
+            <div class="section-header">
+                <span class="section-label">Our Process</span>
+                <h2 class="section-title">The O.C.B.A. Ranking Framework</h2>
+            </div>
+            <div class="framework-grid">
+                <div class="framework-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg>
+                    <h3>Optimize</h3>
+                    <p>We audit and optimize your digital presence for maximum visibility.</p>
+                </div>
+                <div class="framework-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                    <h3>Create</h3>
+                    <p>We create unique content that ranks in Google & the AI Search Engines.</p>
+                </div>
+                <div class="framework-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+                    <h3>Boost</h3>
+                    <p>We amplify your reach with targeted GBP, SEO, AEO & GEO campaigns.</p>
+                </div>
+                <div class="framework-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    <h3>Automation</h3>
+                    <p>We deploy intelligent, Agentic AI Agents to get you more brand exposure, leads and sales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions About AI Marketing Automation for Montgomery County Businesses</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+                        <span>What is AI-powered marketing and how does it work for Montgomery County businesses?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq1" class="faq-answer">
+                        <p>AI-powered marketing uses artificial intelligence and machine learning to automate, optimize, and scale your marketing efforts. For Montgomery County businesses in Conroe, The Woodlands, Spring, and surrounding areas, this means:</p>
+                        <ul>
+                            <li><strong>Automated lead generation</strong> — AI identifies and targets high-intent customers searching for your services</li>
+                            <li><strong>Smart content creation</strong> — Generate SEO-optimized blog posts, social media content, and ad copy at scale</li>
+                            <li><strong>Predictive analytics</strong> — Understand which marketing channels deliver the best ROI for your specific industry</li>
+                            <li><strong>24/7 customer engagement</strong> — AI chatbots capture leads and answer questions even when you're off the clock</li>
+                        </ul>
+                        <p>Unlike traditional marketing agencies that rely on manual processes, our AI marketing systems in Montgomery County, Texas continuously learn and improve, delivering better results over time while reducing your marketing costs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+                        <span>How quickly can Montgomery County businesses see results from AI marketing?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq2" class="faq-answer">
+                        <p>Most Montgomery County businesses see measurable improvements within <strong>30 to 60 days</strong>, with significant results typically appearing within 90 days. Here's the typical timeline:</p>
+                        <ul>
+                            <li><strong>Week 1:</strong> AI systems audit your current marketing, analyze competitors in Montgomery County, and begin optimization</li>
+                            <li><strong>Weeks 2-4:</strong> Content creation and local SEO, AEO & GEO ranking improvements compound visibility and sales</li>
+                            <li><strong>Month 2:</strong> Lead volume increases as AI targeting refines; chatbots begin capturing after-hours inquiries</li>
+                            <li><strong>Month 3+:</strong> Full system optimization delivers consistent, scalable lead generation and measurable ROI</li>
+                        </ul>
+                        <p>Factors affecting speed include your current online presence, competition level in your specific Montgomery County area (Conroe vs. The Woodlands vs. Spring), and how quickly we can implement AI automation across your marketing channels.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+                        <span>What industries do you serve in Montgomery County, Texas?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq3" class="faq-answer">
+                        <p>We specialize in AI-powered marketing for <strong>local service businesses throughout Montgomery County, TX</strong>, including:</p>
+                        <ul>
+                            <li><strong>Home Services:</strong> Roofers, plumbers, electricians, HVAC companies, painters, and general contractors in Conroe, The Woodlands, and Spring</li>
+                            <li><strong>Outdoor Living:</strong> Pool builders, landscape designers, patio contractors, and outdoor kitchen specialists serving Montgomery County</li>
+                            <li><strong>Healthcare:</strong> Chiropractors, dentists, medical spas, and wellness professionals in The Woodlands and surrounding areas</li>
+                            <li><strong>Real Estate:</strong> Realtors, property managers, and home inspectors throughout Montgomery County, Texas</li>
+                            <li><strong>Professional Services:</strong> Attorneys, accountants, insurance agents, and financial advisors in Conroe and Willis</li>
+                            <li><strong>Automotive:</strong> Auto repair shops, detailing services, and dealerships serving Montgomery County residents</li>
+                        </ul>
+                        <p>Our AI marketing systems are specifically trained on what works for local service businesses competing in the Montgomery County market, from ranking in Google Maps to generating 5-star reviews.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+                        <span>What makes My Global Mobile different from other marketing agencies in Montgomery County?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq4" class="faq-answer">
+                        <p>Unlike traditional marketing agencies in Montgomery County that rely on manual work and generic strategies, we combine <strong>cutting-edge AI technology</strong> with <strong>proven local marketing expertise</strong>:</p>
+                        <ul>
+                            <li><strong>AI-First Approach:</strong> We use proprietary AI agents and software platforms that automate lead generation, content creation, and customer follow-up — systems that work 24/7 without human intervention</li>
+                            <li><strong>Montgomery County Specialization:</strong> We understand the local market dynamics of Conroe, The Woodlands, Spring, Willis, and surrounding areas — what keywords rank, where customers search, and how to dominate local search results</li>
+                            <li><strong>Measurable ROI Focus:</strong> Every campaign tracks leads, conversions, and revenue — you see exactly what your marketing investment returns</li>
+                            <li><strong>OCBA Rank Framework:</strong> Our proprietary Optimize-Create-Boost-Automate system ensures consistent, scalable growth rather than one-time tactics</li>
+                            <li><strong>Done-For-You + Done-With-You:</strong> We can fully manage your marketing OR train your team to use our AI platforms — flexibility that fits your business</li>
+                        </ul>
+                        <p>We're not just another agency — we're your AI-powered growth partner for long-term success in Montgomery County, Texas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq5">
+                        <span>How much does AI marketing cost for small businesses in Montgomery County?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq5" class="faq-answer">
+                        <p>Our AI marketing services are designed to be accessible for Montgomery County small businesses while delivering enterprise-level results. Pricing typically ranges from <strong>$1,500 to $5,000+ per month</strong> depending on:</p>
+                        <ul>
+                            <li><strong>Service Level:</strong> Rank in Local Search, AEO and GEO and reputation management start lower; full AI automation with chatbots, content generation, and lead nurturing are higher investment</li>
+                            <li><strong>Competition:</strong> Highly competitive industries (personal injury law, luxury home builders) in The Woodlands require more aggressive strategies</li>
+                            <li><strong>Geographic Scope:</strong> Targeting all of Montgomery County vs. specific cities like Conroe or Spring affects scope</li>
+                            <li><strong>Current Position:</strong> Businesses starting from zero need more foundational work than those with existing marketing infrastructure</li>
+                        </ul>
+                        <p>We offer a <strong>free 15-minute consultation</strong> to assess your needs and provide a custom quote. Most clients see positive ROI within 60-90 days, with AI automation reducing long-term marketing costs while increasing lead volume.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq6">
+                        <span>Do you offer AI chatbots for Montgomery County businesses?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div id="faq6" class="faq-answer">
+                        <p>Yes! AI chatbots are one of our most popular services for Montgomery County businesses. Our intelligent chatbots:</p>
+                        <ul>
+                            <li><strong>Capture leads 24/7</strong> — Never miss an inquiry, even at 2 AM or on weekends</li>
+                            <li><strong>Answer common questions</strong> — Pricing, services, hours, location — freeing up your team</li>
+                            <li><strong>Qualify prospects</strong> — Ask pre-screening questions to ensure you only talk to serious buyers</li>
+                            <li><strong>Schedule appointments</strong> — Integrate with your calendar to book consultations automatically</li>
+                            <li><strong>Speak multiple languages</strong> — Serve Montgomery County's diverse community including Spanish-speaking customers</li>
+                        </ul>
+                        <p>Our AI chatbots are trained specifically on your business — your services, your pricing, your brand voice — so they sound like a knowledgeable member of your team. Perfect for roofers, plumbers, HVAC companies, medical practices, and any Montgomery County business that wants to capture more leads without hiring additional staff.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="cta-card">
+                <h2 class="section-title" style="color: var(--gold);">Ready to Transform Your Business?</h2>
+                <p>Book a free 15-minute consultation to discuss your marketing goals.</p>
+                <br>
+                <a href="https://bookings.laserguidedmarketing.com" class="btn btn-primary">Book Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="service-area">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Service Area</span>
+                <h2 class="section-title">Serving Montgomery County & North Houston</h2>
+            </div>
+            <div class="service-area-box">
+                <p class="location-line">Montgomery, Texas</p>
+                <p class="location-line">Conroe, Texas</p>
+                <p class="location-line">Walden, Texas</p>
+                <p class="location-line">Willis, Texas</p>
+                <p class="location-line">Wood Forest, Texas</p>
+                <p class="location-line">The Woodlands, Texas</p>
+                <p class="location-line">Spring, Texas</p>
+                <p class="location-line">Magnolia, Texas</p>
+                <p class="location-line">Dobbin, Texas</p>
+                <p class="location-line">Pinehurst, Texas</p>
+                <p class="location-line">Stagecoach, Texas</p>
+                <p class="location-line">Plantersville, Texas</p>
+                <p class="location-line">Panorama Village, Texas</p>
+                <p class="location-line" style="color: var(--gold);">&</p>
+                <p class="location-line">North Houston, Texas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="logo-text">My Global <span>Mobile</span></p>
+                    <p>AI-powered marketing for Montgomery County businesses.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#framework">Framework</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#service-area">Service Area</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://bookings.laserguidedmarketing.com">Book Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 My Global Mobile. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // FAQ Accordion - handles both click and touch events
+        document.querySelectorAll('.faq-question').forEach(button => {
+            const toggleFaq = (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                }
+            };
+            
+            button.addEventListener('click', toggleFaq);
+            button.addEventListener('touchend', toggleFaq);
+        });
+    </script>
+</body>
+</html>
