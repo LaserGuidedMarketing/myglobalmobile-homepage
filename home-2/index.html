@@ -722,6 +722,20 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
+        /* Two Column Reversed (Image Left, Text Right) */
+        .two-column-grid.reversed {
+            direction: rtl;
+        }
+
+        .two-column-grid.reversed > * {
+            direction: ltr;
+        }
+
+        .two-column-grid.reversed .column-text {
+            padding-right: 0;
+            padding-left: 1rem;
+        }
+
         /* Mobile Responsive for Two Column */
         @media (max-width: 768px) {
             .two-column-grid {
@@ -729,8 +743,16 @@
                 gap: 2rem;
             }
 
+            .two-column-grid.reversed {
+                direction: ltr;
+            }
+
             .column-text {
                 padding-right: 0;
+            }
+
+            .two-column-grid.reversed .column-text {
+                padding-left: 0;
             }
 
             .column-image {
@@ -1414,6 +1436,34 @@
         </div>
     </section>
 
+    <!-- Section 2b: Business Growth Systems -->
+    <section class="content-section two-column-section">
+        <div class="container">
+            <div class="two-column-grid reversed">
+                <div class="column-image">
+                    <img src="/images/placeholder-section-2b.jpg" alt="strategic_business_growth_systems" style="width: 100%; height: auto; border-radius: 12px;">
+                </div>
+                <div class="column-text">
+                    <h2>Strategic business growth requires a better path.</h2>
+                    <p>Your business needs systems that help people:</p>
+                    <ul>
+                        <li>Find you when they are searching</li>
+                        <li>Understand what you offer</li>
+                        <li>Trust your business before they contact you</li>
+                        <li>Take the next step</li>
+                        <li>Get answers quickly</li>
+                        <li>Receive consistent follow-up</li>
+                        <li>Move toward a buying decision</li>
+                        <li>Stay connected after the first interaction</li>
+                        <li>Return for future purchases or services</li>
+                        <li>Refer other people to your business</li>
+                    </ul>
+                    <p>My Global Mobile helps businesses move from disconnected tactics to connected business growth systems designed to support visibility, trust, lead capture, conversion, retention, and automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section 3: Strategic Business Growth Starts With A Clear Plan -->
     <section class="content-section two-column-section">
         <div class="container">
@@ -1424,13 +1474,26 @@
                     <p>That means your visibility strategy, lead generation strategy, reputation strategy, automation strategy, follow-up strategy, and conversion strategy should not be treated as separate silos.</p>
                     <p>They should work together.</p>
                     <p>My Global Mobile helps businesses look at the full customer journey from first exposure to final conversion and beyond.</p>
+                </div>
+                <div class="column-image">
+                    <img src="/images/placeholder-section-3.jpg" alt="strategic_business_growth_starts_with_a_clear_plan" style="width: 100%; height: auto; border-radius: 12px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3b: Identifying Growth Opportunities -->
+    <section class="content-section two-column-section">
+        <div class="container">
+            <div class="two-column-grid reversed">
+                <div class="column-image">
+                    <img src="/images/placeholder-section-3b.jpg" alt="identifying_growth_opportunities" style="width: 100%; height: auto; border-radius: 12px;">
+                </div>
+                <div class="column-text">
                     <p>We help identify where your business may be losing attention, leads, trust, appointments, sales, retention, or time.</p>
                     <p>Then we help build practical systems that support the next stage of growth.</p>
                     <p>This may include improving your search visibility, strengthening your online reputation, creating better lead capture systems, using AI chatbots to answer questions, building sales funnels, automating follow-up, launching newsletters, or developing online courses for customer education and employee training.</p>
                     <p>The result is a smarter business growth approach that helps your marketing and operations work together instead of competing for your time and attention.</p>
-                </div>
-                <div class="column-image">
-                    <img src="/images/placeholder-section-3.jpg" alt="strategic_business_growth_starts_with_a_clear_plan" style="width: 100%; height: auto; border-radius: 12px;">
                 </div>
             </div>
         </div>
