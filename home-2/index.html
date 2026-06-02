@@ -663,6 +663,84 @@
             margin-bottom: 1rem;
         }
 
+        /* Two Column Layout */
+        .two-column-section {
+            padding: 4rem 0;
+        }
+
+        .two-column-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .column-text {
+            padding-right: 1rem;
+        }
+
+        .column-text h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--gold);
+        }
+
+        .column-text h3 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--gold);
+        }
+
+        .column-text p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        .column-text ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .column-text li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .column-image {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .column-image img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Mobile Responsive for Two Column */
+        @media (max-width: 768px) {
+            .two-column-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .column-text {
+                padding-right: 0;
+            }
+
+            .column-image {
+                order: -1;
+            }
+
+            .column-image img {
+                max-width: 100%;
+            }
+        }
+
         /* Cards - Unified Background */
         .framework-grid,
         .services-grid,
