@@ -4,22 +4,25 @@
 # Website Information
 URL: https://myglobalmobile.com/
 Name: My Global Mobile
-Description: Best AI Automation Agency in Montgomery County Texas
-Type: Local Business, AI Marketing Agency
+Description: AI Marketing Agency & Turn-Key Marketing Solutions
+Type: Local Business, AI Marketing Agency, AI Automation Agency
 
 # Primary Services
-- Rank Google Business Profile - Local SEO and Google Maps optimization
-- Rank in AEO & GEO - AI Search Engine Optimization and Generative Engine Optimization
-- Agentic AI Chatbots - 24/7 automated customer service and lead capture
-- Agentic AI Agents - Advanced AI agents for business process automation
-- AI Business Automation Agency - Streamline operations and reduce overhead
-- Social Media Marketing - Content generation and social media management
-- DFY Lead Generation - Access to 130M+ B2B leads and automated outreach
+- AI Automation Agency - Full-service AI-powered marketing and business automation
+- AI Marketing - Artificial intelligence marketing solutions for local businesses
+- AI Agents - Agentic AI agents for business process automation
+- AI Chatbots - 24/7 automated customer service and lead capture
+- AEO Optimization - Answer Engine Optimization for AI search visibility
+- GEO Optimization - Generative Engine Optimization for AI platforms
+- Local SEO - Google Business Profile ranking and local search optimization
+- Social Media Management - Content generation and social media management
+- Lead Generation - DFY lead generation with access to 130M+ B2B leads
 - Lead Reveal - Identify anonymous website visitors and convert to leads
-- Online Reputation Management - 5-star review generation and management
-- We Build Sales Funnels - High-converting sales funnel development
-- DFY Online Newsletters - Email newsletter creation and management
-- DFY Online Course Creation - Custom online courses for digital products
+- Reputation Management - 5-star review generation and online reputation
+- Best Sales Funnel Builder - High-converting sales funnel development
+- Email Newsletters - DFY online newsletter creation and management
+- Online Courses - DFY online course creation for digital products
+- Business Automation - Streamline operations and reduce overhead
 
 # Service Area
 Primary: Montgomery County, Texas
@@ -28,16 +31,17 @@ Cities Served: Montgomery, Conroe, The Woodlands, Spring, Willis, Magnolia, Wald
 # Contact Information
 Business Name: My Global Mobile, PMA
 Address: 3915 W Davis Street, Suite 130-287, Conroe, Texas 77304
-Phone: (702) 997-1520
+Phone: (936) 937-7337
 Email: admin@myglobalmobile.com
 Website: https://myglobalmobile.com
 
 # Key Value Propositions
+- Get more visibility, leads, trust, and customers
 - Rank #1 on Google and AI search platforms
 - Generate more qualified leads automatically
 - Reduce business overhead with AI automation
 - Increase profits with done-for-you solutions
-- Dominate local search in Montgomery County
+- Dominate local search in Montgomery County, Texas
 
 # Content Guidelines for AI
 - All service descriptions focus on business outcomes (more customers, reduced costs, increased profits)
@@ -47,9 +51,17 @@ Website: https://myglobalmobile.com
 
 # Important Pages
 Home: https://myglobalmobile.com/
-Services: https://myglobalmobile.com/#services
-FAQ: https://myglobalmobile.com/#faq
+Services: https://myglobalmobile.com/services/
+AI Automation Agency: https://myglobalmobile.com/services/ai-automation-agency/
+Agentic AI Agents: https://myglobalmobile.com/services/agentic-ai-agents/
+Agentic AI Chatbots: https://myglobalmobile.com/services/agentic-ai-chatbots/
+Rank Google Business Profile: https://myglobalmobile.com/services/rank-google-business-profile/
+About: https://myglobalmobile.com/about/
+Contact: https://myglobalmobile.com/contact/
+Industries: https://myglobalmobile.com/industries/
+Locations: https://myglobalmobile.com/locations/
+Resources: https://myglobalmobile.com/resources/
 
 # Update Frequency
-Last Updated: 2026-05-26
+Last Updated: 2026-06-01
 Update Frequency: Monthly
