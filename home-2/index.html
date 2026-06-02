@@ -841,6 +841,30 @@
             font-weight: bold;
         }
 
+        /* Features List */
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .features-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--glass-border);
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .features-list li:last-child {
+            border-bottom: none;
+        }
+
+        .features-list li::before {
+            content: "•";
+            color: var(--gold);
+            margin-right: 0.75rem;
+        }
+
         /* Mobile Responsive for Three Fifths Grid */
         @media (max-width: 768px) {
             .three-fifths-grid {
@@ -1917,12 +1941,17 @@
     </section>
 
     <!-- Section 11: Features Of Our Strategic Marketing And AI Automation Services -->
-    <section class="content-section two-column-section">
+    <!-- Section 11: Features Of Our Strategic Marketing And AI Automation Services -->
+    <section class="content-section">
         <div class="container">
-            <div class="two-column-grid">
-                <div class="column-text">
-                    <h2>Features Of Our Strategic Marketing And AI Automation Services</h2>
-                    <ul>
+            <div class="three-fifths-grid">
+                <div class="three-fifths-empty"></div>
+                <div class="three-fifths-content">
+                    <h2 style="text-align: center; color: var(--gold); margin-bottom: 1.5rem;">Features Of Our Strategic Marketing And AI Automation Services</h2>
+                    <div style="text-align: center; margin-bottom: 1.5rem;">
+                        <img src="/images/placeholder-section-11.jpg" alt="features_of_our_strategic_marketing_and_ai_automation_services" style="width: 100%; max-width: 400px; height: auto; border-radius: 12px;">
+                    </div>
+                    <ul class="features-list">
                         <li>Strategic marketing planning and execution</li>
                         <li>Google Business Profile optimization and ranking</li>
                         <li>AEO and GEO optimization for AI search</li>
@@ -1945,9 +1974,7 @@
                         <li>Customer retention marketing</li>
                     </ul>
                 </div>
-                <div class="column-image">
-                    <img src="/images/placeholder-section-11.jpg" alt="features_of_our_strategic_marketing_and_ai_automation_services" style="width: 100%; height: auto; border-radius: 12px;">
-                </div>
+                <div class="three-fifths-empty"></div>
             </div>
         </div>
     </section>
