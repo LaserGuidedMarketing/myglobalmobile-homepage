@@ -741,6 +741,67 @@
             }
         }
 
+        /* Industries Section */
+        .industries-section {
+            padding: 4rem 0;
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .industry-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .industry-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+            box-shadow: 0 10px 30px rgba(201, 179, 88, 0.1);
+        }
+
+        .industry-icon {
+            width: 48px;
+            height: 48px;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .industry-card h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .industry-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Mobile Responsive for Industries */
+        @media (max-width: 1024px) {
+            .industries-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .industries-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Cards - Unified Background */
         .framework-grid,
         .services-grid,
