@@ -736,6 +736,57 @@
             padding-left: 1rem;
         }
 
+        /* Three Fifths Grid Layout (1/5 - 3/5 - 1/5) */
+        .three-fifths-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .three-fifths-content {
+            background-color: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .growth-systems-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .growth-systems-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--glass-border);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .growth-systems-list li:last-child {
+            border-bottom: none;
+        }
+
+        .growth-systems-list li::before {
+            content: "✓";
+            color: var(--gold);
+            margin-right: 0.75rem;
+            font-weight: bold;
+        }
+
+        /* Mobile Responsive for Three Fifths Grid */
+        @media (max-width: 768px) {
+            .three-fifths-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .three-fifths-empty {
+                display: none;
+            }
+        }
+
         /* Mobile Responsive for Two Column */
         @media (max-width: 768px) {
             .two-column-grid {
@@ -1589,18 +1640,13 @@
     </section>
 
     <!-- Section 6: Business Growth Systems That Connect Marketing, Sales, And Follow-Up -->
-    <section class="content-section two-column-section">
+    <section class="content-section">
         <div class="container">
-            <div class="two-column-grid">
-                <div class="column-text">
-                    <h2>Business Growth Systems That Connect Marketing, Sales, And Follow-Up</h2>
-                    <p>A business growth system is the connected structure that helps your business turn attention into revenue.</p>
-                    <p>It is not one single tool.</p>
-                    <p>It is the combination of strategy, visibility, trust, lead capture, automation, follow-up, conversion, education, and retention.</p>
-                    <p>When these pieces work together, your business is in a much stronger position to grow.</p>
-                    <p>A complete business growth system may include:</p>
-                    <ul>
-                        <li>Google Business Profile ranking to help local prospects find you</li>
+            <h2 style="text-align: center; color: var(--gold); margin-bottom: 2rem;">Complete Business Growth System Components</h2>
+            <div class="three-fifths-grid">
+                <div class="three-fifths-empty"></div>
+                <div class="three-fifths-content">
+                    <ul class="growth-systems-list">
                         <li>AEO and GEO content to help your business appear in answer engines and AI-driven search</li>
                         <li>Social media management to keep your brand visible and active</li>
                         <li>Lead generation to create new prospect opportunities</li>
@@ -1613,12 +1659,10 @@
                         <li>Online courses to educate customers, train employees, or package expertise</li>
                         <li>Automation systems to reduce manual workload</li>
                     </ul>
-                    <p>The more connected these systems become, the more your business can move from reactive marketing to strategic growth.</p>
                 </div>
-                <div class="column-image">
-                    <img src="/images/placeholder-section-6.jpg" alt="business_growth_systems_that_connect_marketing_sales_and_follow_up" style="width: 100%; height: auto; border-radius: 12px;">
-                </div>
+                <div class="three-fifths-empty"></div>
             </div>
+            <p style="text-align: center; margin-top: 2rem;">The more connected these systems become, the more your business can move from reactive marketing to strategic growth.</p>
         </div>
     </section>
 
