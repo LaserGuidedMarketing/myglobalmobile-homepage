@@ -754,12 +754,32 @@
         }
 
         .industry-card {
-            background-color: var(--bg-card);
             border: 1px solid var(--glass-border);
             border-radius: 16px;
             padding: 1.5rem;
             text-align: center;
             transition: all 0.3s ease;
+        }
+
+        .industry-card:nth-child(4n+1) {
+            background-color: #004c77;
+        }
+
+        .industry-card:nth-child(4n+2) {
+            background-color: #434656;
+        }
+
+        .industry-card:nth-child(4n+3) {
+            background-color: #867555;
+        }
+
+        .industry-card:nth-child(4n+4) {
+            background-color: #c9b358;
+        }
+
+        .industry-card:nth-child(4n+4) h3,
+        .industry-card:nth-child(4n+4) p {
+            color: #011f46;
         }
 
         .industry-card:hover {
